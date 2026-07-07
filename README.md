@@ -132,6 +132,4 @@ If you use these scripts in your work, please cite:
 
 This code is released under the MIT License. See LICENSE file for details.
 
-This code is released under the MIT License. See LICENSE file for details.
-
 ---
