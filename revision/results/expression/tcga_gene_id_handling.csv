@@ -1,0 +1,8 @@
+step,n
+GENCODE v36 gene rows in STAR files,60660
+PAR_Y rows dropped,44
+genes after version stripping,60616
+genes with a missing value in any aliquot,0
+symbols shared by more than one Ensembl ID,67
+Ensembl IDs with a shared symbol,1256
+aliquots,391

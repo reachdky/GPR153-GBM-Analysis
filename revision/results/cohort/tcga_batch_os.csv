@@ -1,0 +1,5 @@
+cohort,batch,n,deaths,censored,median_os_days,median_os_ci_low,median_os_ci_high,median_followup_days_reverse_km,logrank_p_between_batches
+sensitivity (all primary),BI,153,122,31,414.0,360.0,455.0,958.0,0.12729789712273107
+sensitivity (all primary),GDC2024,128,105,23,454.0,386.0,504.0,2246.0,0.12729789712273107
+primary (IDH-wildtype),BI,144,117,27,395.0,343.0,448.0,not reached,0.2360708928799365
+primary (IDH-wildtype),GDC2024,105,90,15,399.0,320.0,476.0,2246.0,0.2360708928799365

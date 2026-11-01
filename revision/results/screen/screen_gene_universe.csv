@@ -1,0 +1,9 @@
+step,n
+GDC v36 genes (after PAR_Y removal),60616
+non-constant in primary cohort,57660
+"eligible, 10% filter",30785
+"eligible, 20% filter (primary)",26371
+"eligible, 50% filter",18556
+"tested in primary screen (eligible, MGMT excluded)",26370
+GPR153 eligible at 10% / 20% / 50%,True / True / True
+MGMT eligible at 10% / 20% / 50%,True / True / True

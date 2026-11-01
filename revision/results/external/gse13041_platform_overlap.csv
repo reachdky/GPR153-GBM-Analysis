@@ -1,0 +1,4 @@
+check,pairs_found,detail
+shared tumor ID (title),0,
+"identical clinical record (age, sex, survival time, vital status)",0,
+whole-profile Spearman r >= 0.98 on 22274 common probe sets,0,maximum cross-platform r 0.910

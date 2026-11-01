@@ -1,0 +1,30 @@
+cohort,variable,level,BI,GDC2024,test,p
+primary (IDH-wildtype),n patients,,146,106,,
+primary (IDH-wildtype),age at diagnosis (years),median [IQR],62.5 [53.4-70.7] (n=145),61.5 [52.3-69.5] (n=106),Mann-Whitney U,0.8012699765097924
+primary (IDH-wildtype),Karnofsky performance score,median [IQR],80.0 [60.0-80.0] (n=109),80.0 [60.0-80.0] (n=84),Mann-Whitney U,0.236004382303538
+primary (IDH-wildtype),sex,female,52 (36%),39 (37%),Fisher exact (missing excluded),0.894929556359682
+primary (IDH-wildtype),sex,male,93 (64%),67 (63%),Fisher exact (missing excluded),
+primary (IDH-wildtype),sex,missing,1 (1%),0 (0%),Fisher exact (missing excluded),
+primary (IDH-wildtype),IDH status,wildtype,146 (100%),106 (100%),,
+primary (IDH-wildtype),MGMT promoter,methylated,45 (31%),41 (39%),Fisher exact (missing excluded),0.1099881443800953
+primary (IDH-wildtype),MGMT promoter,missing,30 (21%),25 (24%),Fisher exact (missing excluded),
+primary (IDH-wildtype),MGMT promoter,unmethylated,71 (49%),40 (38%),Fisher exact (missing excluded),
+primary (IDH-wildtype),temozolomide,missing,2 (1%),13 (12%),Fisher exact (missing excluded),0.5759443470067459
+primary (IDH-wildtype),temozolomide,no,47 (32%),34 (32%),Fisher exact (missing excluded),
+primary (IDH-wildtype),temozolomide,yes,97 (66%),59 (56%),Fisher exact (missing excluded),
+primary (IDH-wildtype),radiotherapy,missing,55 (38%),52 (49%),Fisher exact (missing excluded),0.8214151798947081
+primary (IDH-wildtype),radiotherapy,no,15 (10%),10 (9%),Fisher exact (missing excluded),
+primary (IDH-wildtype),radiotherapy,yes,76 (52%),44 (42%),Fisher exact (missing excluded),
+primary (IDH-wildtype),G-CIMP,G-CIMP,1 (1%),0 (0%),Fisher exact (missing excluded),1.0
+primary (IDH-wildtype),G-CIMP,missing,3 (2%),13 (12%),Fisher exact (missing excluded),
+primary (IDH-wildtype),G-CIMP,non-G-CIMP,142 (97%),93 (88%),Fisher exact (missing excluded),
+primary (IDH-wildtype),expression subtype (Brennan 2013),Classical,39 (27%),23 (22%),chi-square (missing excluded),0.7364623029753968
+primary (IDH-wildtype),expression subtype (Brennan 2013),G-CIMP,1 (1%),0 (0%),chi-square (missing excluded),
+primary (IDH-wildtype),expression subtype (Brennan 2013),Mesenchymal,50 (34%),26 (25%),chi-square (missing excluded),
+primary (IDH-wildtype),expression subtype (Brennan 2013),Neural,26 (18%),21 (20%),chi-square (missing excluded),
+primary (IDH-wildtype),expression subtype (Brennan 2013),Proneural,27 (18%),17 (16%),chi-square (missing excluded),
+primary (IDH-wildtype),expression subtype (Brennan 2013),missing,3 (2%),19 (18%),chi-square (missing excluded),
+primary (IDH-wildtype),vital status,Alive,27 (18%),15 (14%),chi-square (missing excluded),0.4362980267173673
+primary (IDH-wildtype),vital status,Dead,117 (80%),91 (86%),chi-square (missing excluded),
+primary (IDH-wildtype),vital status,Not Reported,1 (1%),0 (0%),chi-square (missing excluded),
+primary (IDH-wildtype),vital status,missing,1 (1%),0 (0%),chi-square (missing excluded),

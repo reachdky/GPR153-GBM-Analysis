@@ -1,0 +1,2 @@
+n,k,df,rho,p,ci_low,ci_high,covariates,dropped_constant,measure,status,condition4_pass
+202,3,197,0.11411844739472601,0.10850593063616805,-0.025828995500825486,0.24967880086836,batch+platform+stp27_lp,,stp27_lp,evaluated,False

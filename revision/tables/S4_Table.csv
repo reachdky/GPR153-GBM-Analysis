@@ -1,0 +1,109 @@
+analysis,n,events
+screen: primary: batch-adjusted,252,
+screen: pooled (unadjusted),252,
+screen: BI only (sign check),146,
+screen: GDC2024 only (sign check),106,
+screen: FPKM,252,
+screen: MGMT outliers removed (|z| > 3),252,
+screen: GPR153 or MGMT outliers removed (single value),251,
+screen: filter 10%,252,
+screen: filter 50%,252,
+screen: filter none,252,
+screen: IDH-not-mutant cohort,264,
+screen: sensitivity cohort,284,
+screen: excluding IDH source disagreement,251,
+Cox primary Model 1 main (complete cases),249,207
+Cox primary Model 1 stratified by batch (complete cases),249,207
+Cox primary Model 1 batch covariate (complete cases),249,207
+Cox primary Model 2 main (complete cases),249,207
+Cox primary Model 2 stratified by batch (complete cases),249,207
+Cox primary Model 2 batch covariate (complete cases),249,207
+Cox primary Model 3 main (complete cases),249,207
+Cox primary Model 3 stratified by batch (complete cases),249,207
+Cox primary Model 3 batch covariate (complete cases),249,207
+Cox primary Model 4 main (complete cases),153,123
+Cox primary Model 4 stratified by batch (complete cases),153,123
+Cox primary Model 4 batch covariate (complete cases),153,123
+Cox primary Model 4 + temozolomide + radiotherapy (immortal-time bias) (complete cases),105,81
+Cox primary Model 5 main (complete cases),153,123
+Cox primary Model 5 stratified by batch (complete cases),153,123
+Cox primary Model 5 batch covariate (complete cases),153,123
+Cox primary Model 5 + temozolomide + radiotherapy (immortal-time bias) (complete cases),105,81
+Cox primary Model 6 main (complete cases),249,207
+Cox primary Model 6 stratified by batch (complete cases),249,207
+Cox primary Model 6 batch covariate (complete cases),249,207
+Cox primary Model 7 main (complete cases),199,160
+Cox primary Model 7 stratified by batch (complete cases),199,160
+Cox primary Model 7 batch covariate (complete cases),199,160
+Cox primary Model 1 main (Model 4 complete cases),153,123
+Cox primary Model 2 main (Model 4 complete cases),153,123
+Cox primary Model 3 main (Model 4 complete cases),153,123
+Cox idh_not_mutant Model 1 main (complete cases),261,217
+Cox idh_not_mutant Model 1 stratified by batch (complete cases),261,217
+Cox idh_not_mutant Model 1 batch covariate (complete cases),261,217
+Cox idh_not_mutant Model 2 main (complete cases),261,217
+Cox idh_not_mutant Model 2 stratified by batch (complete cases),261,217
+Cox idh_not_mutant Model 2 batch covariate (complete cases),261,217
+Cox idh_not_mutant Model 3 main (complete cases),261,217
+Cox idh_not_mutant Model 3 stratified by batch (complete cases),261,217
+Cox idh_not_mutant Model 3 batch covariate (complete cases),261,217
+Cox idh_not_mutant Model 4 main (complete cases),160,129
+Cox idh_not_mutant Model 4 stratified by batch (complete cases),160,129
+Cox idh_not_mutant Model 4 batch covariate (complete cases),160,129
+Cox idh_not_mutant Model 4 + temozolomide + radiotherapy (immortal-time bias) (complete cases),111,86
+Cox idh_not_mutant Model 5 main (complete cases),160,129
+Cox idh_not_mutant Model 5 stratified by batch (complete cases),160,129
+Cox idh_not_mutant Model 5 batch covariate (complete cases),160,129
+Cox idh_not_mutant Model 5 + temozolomide + radiotherapy (immortal-time bias) (complete cases),111,86
+Cox idh_not_mutant Model 6 main (complete cases),261,217
+Cox idh_not_mutant Model 6 stratified by batch (complete cases),261,217
+Cox idh_not_mutant Model 6 batch covariate (complete cases),261,217
+Cox idh_not_mutant Model 7 main (complete cases),209,168
+Cox idh_not_mutant Model 7 stratified by batch (complete cases),209,168
+Cox idh_not_mutant Model 7 batch covariate (complete cases),209,168
+Cox idh_not_mutant Model 1 main (Model 4 complete cases),160,129
+Cox idh_not_mutant Model 2 main (Model 4 complete cases),160,129
+Cox idh_not_mutant Model 3 main (Model 4 complete cases),160,129
+Cox sensitivity Model 1 main (complete cases),281,227
+Cox sensitivity Model 1 stratified by batch (complete cases),281,227
+Cox sensitivity Model 1 batch covariate (complete cases),281,227
+Cox sensitivity Model 2 main (complete cases),281,227
+Cox sensitivity Model 2 stratified by batch (complete cases),281,227
+Cox sensitivity Model 2 batch covariate (complete cases),281,227
+Cox sensitivity Model 3 main (complete cases),281,227
+Cox sensitivity Model 3 stratified by batch (complete cases),281,227
+Cox sensitivity Model 3 batch covariate (complete cases),281,227
+Cox sensitivity Model 4 main (complete cases),171,133
+Cox sensitivity Model 4 stratified by batch (complete cases),171,133
+Cox sensitivity Model 4 batch covariate (complete cases),171,133
+Cox sensitivity Model 4 + temozolomide + radiotherapy (immortal-time bias) (complete cases),120,88
+Cox sensitivity Model 5 main (complete cases),171,133
+Cox sensitivity Model 5 stratified by batch (complete cases),171,133
+Cox sensitivity Model 5 batch covariate (complete cases),171,133
+Cox sensitivity Model 5 + temozolomide + radiotherapy (immortal-time bias) (complete cases),120,88
+Cox sensitivity Model 6 main (complete cases),281,227
+Cox sensitivity Model 6 stratified by batch (complete cases),281,227
+Cox sensitivity Model 6 batch covariate (complete cases),281,227
+Cox sensitivity Model 7 main (complete cases),227,176
+Cox sensitivity Model 7 stratified by batch (complete cases),227,176
+Cox sensitivity Model 7 batch covariate (complete cases),227,176
+Cox sensitivity Model 1 main (Model 4 complete cases),171,133
+Cox sensitivity Model 2 main (Model 4 complete cases),171,133
+Cox sensitivity Model 3 main (Model 4 complete cases),171,133
+external co-expression: GSE13041 GPL96 primary,162,
+external co-expression: GSE4290 GBM,77,
+external co-expression: CGGA mRNAseq_693,109,
+external co-expression: CGGA mRNAseq_325,74,
+external survival: CGGA mRNAseq_693 all (a) GPR153,105,92
+external survival: CGGA mRNAseq_693 all (b) GPR153 + age + sex,105,92
+external survival: CGGA mRNAseq_325 all (a) GPR153,74,64
+external survival: CGGA mRNAseq_325 all (b) GPR153 + age + sex,74,64
+external survival: GSE13041 GPL96 all (a) GPR153,162,149
+external survival: GSE13041 GPL96 all (b) GPR153 + age + sex,162,149
+external survival: Rembrandt (GSE108474) all (a) GPR153,210,187
+external survival: Rembrandt (GSE108474) all (b) GPR153 + age + sex,156,133
+external survival: CPTAC-3 GBM IDH-wildtype (a) GPR153,172,132
+external survival: CPTAC-3 GBM IDH-wildtype (b) GPR153 + age + sex,172,132
+external survival: CPTAC-3 GBM all (a) GPR153,188,141
+external survival: CPTAC-3 GBM all (b) GPR153 + age + sex,188,141
+condition 4 (stp27_lp),202,

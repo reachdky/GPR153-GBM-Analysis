@@ -1,0 +1,17 @@
+/home/dpatel/GPR153-GBM-Analysis/.venv/lib/python3.12/site-packages/GEOparse/GEOparse.py:401: DtypeWarning: Columns (2) have mixed types. Specify dtype option on import or set low_memory=False.
+  return read_csv(StringIO(data), index_col=None, sep="\t")
+/home/dpatel/GPR153-GBM-Analysis/.venv/lib/python3.12/site-packages/GEOparse/GEOparse.py:401: DtypeWarning: Columns (2) have mixed types. Specify dtype option on import or set low_memory=False.
+  return read_csv(StringIO(data), index_col=None, sep="\t")
+tcga: 391 open files, GDC Data Release 46.0 - August 10, 2026
+  50/391
+  100/391
+  150/391
+  200/391
+  250/391
+  300/391
+  350/391
+tcga: 391 files, all md5 match
+  attempt 1 failed: ('Connection broken: IncompleteRead(0 bytes read, 73560427 more expected)', IncompleteRead(0 bytes read, 73560427 more expected))
+  attempt 2 failed: ('Connection broken: IncompleteRead(0 bytes read, 73560427 more expected)', IncompleteRead(0 bytes read, 73560427 more expected))
+  attempt 1 failed: ('Connection broken: IncompleteRead(0 bytes read, 79880273 more expected)', IncompleteRead(0 bytes read, 79880273 more expected))
+geo: all md5 match

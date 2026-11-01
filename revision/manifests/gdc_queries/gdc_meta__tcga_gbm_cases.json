@@ -1,0 +1,27 @@
+{
+ "query": {
+  "filters": {
+   "op": "=",
+   "content": {
+    "field": "project.project_id",
+    "value": "TCGA-GBM"
+   }
+  },
+  "expand": "demographic,diagnoses,diagnoses.treatments,follow_ups",
+  "format": "JSON",
+  "size": "2000"
+ },
+ "retrieved_utc": "2026-10-24T22:01:21+00:00",
+ "gdc_status": {
+  "commit": "8f7c2a51ab0084b216ad1b62a3fae8b945439c53",
+  "data_release": "Data Release 46.0 - August 10, 2026",
+  "data_release_version": {
+   "major": 46,
+   "minor": 0,
+   "release_date": "2026-08-10"
+  },
+  "status": "OK",
+  "tag": "8.5.0",
+  "version": 1
+ }
+}

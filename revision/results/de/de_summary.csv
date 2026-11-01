@@ -1,0 +1,4 @@
+comparison,tumors,normals,normal_tissue,genes_tested,genes,significant,gpr153_log2fc_apeglm,gpr153_padj,gpr153_rank_padj,gpr153_rank_shrunken_lfc,most_significant_up_gene
+primary,144,151,Brain - Cortex 102; Brain - Frontal Cortex (Ba9) 49,37987,60498,16885,-0.659450939565681,6.88798843614197e-08,20963.0,36043.0,ENSG00000109805
+sensitivity,144,206,Brain - Cortex 105; Brain - Frontal Cortex (Ba9) 101,39331,60498,17113,-0.606202883567707,5.76212397170173e-08,21248.0,35618.0,ENSG00000109805
+tcga_normals,252,5,TCGA solid-tissue normal 5,57593,60616,13712,-1.24425166536323,0.0464619489060112,16127.0,53247.0,ENSG00000286522

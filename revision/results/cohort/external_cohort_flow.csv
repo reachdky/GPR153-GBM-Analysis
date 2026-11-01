@@ -1,0 +1,26 @@
+cohort,reason,n
+CGGA_325,excluded: IDH Mutant,11
+CGGA_325,excluded: Recurrent tumor,62
+CGGA_325,excluded: Secondary tumor,30
+CGGA_325,excluded: grade WHO II,94
+CGGA_325,excluded: grade WHO III,50
+CGGA_325,excluded: nan tumor,4
+CGGA_325,included,74
+CGGA_693,excluded: IDH Mutant,24
+CGGA_693,excluded: IDH unknown,7
+CGGA_693,excluded: Recurrent tumor,271
+CGGA_693,excluded: grade WHO II,138
+CGGA_693,excluded: grade WHO III,144
+CGGA_693,included,109
+GSE13041_GPL96,excluded: Recurrent GBM,28
+GSE13041_GPL96,excluded: duplicate profile of GSM326825,1
+GSE13041_GPL96,excluded: platform GPL570,27
+GSE13041_GPL96,excluded: platform GPL8300,49
+GSE13041_GPL96,included,162
+GSE4290_GBM,"excluded: histology astrocytoma, grade 2",7
+GSE4290_GBM,"excluded: histology astrocytoma, grade 3",19
+GSE4290_GBM,excluded: histology nan,4
+GSE4290_GBM,excluded: histology non-tumor,23
+GSE4290_GBM,"excluded: histology oligodendroglioma, grade 2",38
+GSE4290_GBM,"excluded: histology oligodendroglioma, grade 3",12
+GSE4290_GBM,included,77

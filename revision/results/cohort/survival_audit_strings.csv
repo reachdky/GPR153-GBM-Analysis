@@ -1,0 +1,17 @@
+cohort,raw_value,n,event
+TCGA-GBM,Dead,208,1
+TCGA-GBM,Alive,42,0
+TCGA-GBM,Not Reported,1,unmapped (excluded)
+TCGA-GBM,<missing>,1,unmapped (excluded)
+CGGA mRNAseq_693,1,92,1
+CGGA mRNAseq_693,0,13,0
+CGGA mRNAseq_693,<missing>,4,unmapped (excluded)
+CGGA mRNAseq_325,1,64,1
+CGGA mRNAseq_325,0,10,0
+GSE13041 GPL96,DECEASED,149,1
+GSE13041 GPL96,ALIVE,13,0
+Rembrandt (GSE108474),1,187,1
+Rembrandt (GSE108474),0,23,0
+Rembrandt (GSE108474),<missing>,10,unmapped (excluded)
+CPTAC-3 GBM,Dead,141,1
+CPTAC-3 GBM,Alive,50,0

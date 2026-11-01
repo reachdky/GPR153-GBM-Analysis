@@ -1,0 +1,3 @@
+label,gene,gene_id,n_patients,crossbatch_spearman,percentile_among_genes,genes_in_reference
+post hoc,GPR153,ENSG00000158292,79,0.921616358325219,98.32755455843362,53933
+post hoc,MGMT,ENSG00000170430,79,0.8098831548198637,89.82626592253351,53933

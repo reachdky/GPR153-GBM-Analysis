@@ -1,0 +1,2 @@
+analysis,gpr153_feature,n,spearman_rho,spearman_p,spearman_ci_low,spearman_ci_high,pearson_r,pearson_p,pearson_ci_low,pearson_ci_high,histology_counts
+"GSE4290, all histologies",64942_at,180,-0.042017416247159316,0.5754501750513886,-0.18719343196499555,0.10495480855679956,-0.0979308348096157,0.19091652299791373,-0.24107810204941219,0.049386781190704734,"glioblastoma, grade 4: 77; oligodendroglioma, grade 2: 38; non-tumor: 23; astrocytoma, grade 3: 19; oligodendroglioma, grade 3: 12; astrocytoma, grade 2: 7; missing: 4"

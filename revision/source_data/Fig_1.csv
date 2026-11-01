@@ -1,0 +1,37 @@
+step,n_samples,n_patients,panel,cohort,reason,n
+GDC STAR - Counts files (TCGA-GBM),391.0,293.0,A,,,
+Primary tumor (sample type 01),372.0,284.0,A,,,
+One aliquot per patient,284.0,284.0,A,,,
+  of which BI batch,155.0,,A,,,
+  of which GDC2024 batch,129.0,,A,,,
+  of which other batch,0.0,,A,,,
+"IDH-wildtype (primary cohort, screen)",252.0,,A,,,
+IDH-mutant (sensitivity only),20.0,,A,,,
+IDH unknown (sensitivity only),12.0,,A,,,
+"Survival evaluable, all primary (sensitivity)",281.0,,A,,,
+"Survival evaluable, IDH-wildtype (primary)",249.0,,A,,,
+,,,B,CGGA_325,excluded: IDH Mutant,11.0
+,,,B,CGGA_325,excluded: Recurrent tumor,62.0
+,,,B,CGGA_325,excluded: Secondary tumor,30.0
+,,,B,CGGA_325,excluded: grade WHO II,94.0
+,,,B,CGGA_325,excluded: grade WHO III,50.0
+,,,B,CGGA_325,excluded: nan tumor,4.0
+,,,B,CGGA_325,included,74.0
+,,,B,CGGA_693,excluded: IDH Mutant,24.0
+,,,B,CGGA_693,excluded: IDH unknown,7.0
+,,,B,CGGA_693,excluded: Recurrent tumor,271.0
+,,,B,CGGA_693,excluded: grade WHO II,138.0
+,,,B,CGGA_693,excluded: grade WHO III,144.0
+,,,B,CGGA_693,included,109.0
+,,,B,GSE13041_GPL96,excluded: Recurrent GBM,28.0
+,,,B,GSE13041_GPL96,excluded: duplicate profile of GSM326825,1.0
+,,,B,GSE13041_GPL96,excluded: platform GPL570,27.0
+,,,B,GSE13041_GPL96,excluded: platform GPL8300,49.0
+,,,B,GSE13041_GPL96,included,162.0
+,,,B,GSE4290_GBM,"excluded: histology astrocytoma, grade 2",7.0
+,,,B,GSE4290_GBM,"excluded: histology astrocytoma, grade 3",19.0
+,,,B,GSE4290_GBM,excluded: histology nan,4.0
+,,,B,GSE4290_GBM,excluded: histology non-tumor,23.0
+,,,B,GSE4290_GBM,"excluded: histology oligodendroglioma, grade 2",38.0
+,,,B,GSE4290_GBM,"excluded: histology oligodendroglioma, grade 3",12.0
+,,,B,GSE4290_GBM,included,77.0

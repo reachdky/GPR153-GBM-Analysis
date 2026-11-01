@@ -1,0 +1,2 @@
+permutations,genes,n,observed_max_rho,observed_gpr153_rho,observed_gpr153_rank,prop_max_ge_observed_max,prop_rank_value_ge_gpr153,max_rho_p50,max_rho_p95,max_rho_p99
+10000,26370,252,0.4504684663002381,0.16922150707720163,1894,0.0,0.0016,0.22748845295259396,0.2758858940280899,0.29941495901591497

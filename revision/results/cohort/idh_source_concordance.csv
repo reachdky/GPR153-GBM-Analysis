@@ -1,0 +1,4 @@
+source_a,source_b,n_both,agree,disagree,disagree_patients
+idh_maf,idh_ceccarelli2016,245,244,1,TCGA-06-0178
+idh_maf,idh_brennan2013,230,230,0,
+idh_ceccarelli2016,idh_brennan2013,253,251,2,TCGA-06-0156;TCGA-06-0178

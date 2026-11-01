@@ -1,0 +1,9 @@
+gene,split,group,n,deaths,censored,median_os_days,median_os_ci_low,median_os_ci_high,median_os_months,median_followup_days_reverse_km
+GPR153,pooled median,high,124,103,21,360.0,300.0,395.0,11.827515400410677,1405.0
+GPR153,pooled median,low,125,104,21,467.0,399.0,532.0,15.342915811088295,2768.0
+GPR153,within-batch median,high,124,104,20,380.0,327.0,432.0,12.484599589322382,1405.0
+GPR153,within-batch median,low,125,103,22,444.0,375.0,532.0,14.587268993839835,2768.0
+MGMT,pooled median,high,124,101,23,362.0,313.0,405.0,11.893223819301848,inf
+MGMT,pooled median,low,125,106,19,454.0,386.0,544.0,14.915811088295689,2246.0
+MGMT,within-batch median,high,124,104,20,375.0,320.0,405.0,12.320328542094456,inf
+MGMT,within-batch median,low,125,103,22,457.0,385.0,543.0,15.014373716632443,2246.0

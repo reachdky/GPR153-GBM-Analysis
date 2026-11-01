@@ -1,0 +1,17 @@
+# Python and R environments
+.venv/
+.venv_rsf/
+.Rlib/
+__pycache__/
+*.pyc
+
+# Downloaded and derived data (rebuilt by pipeline/r00_download_external.py and pipeline/r10_download_raw_inputs.py)
+data/
+revision/work/
+revision/inputs/
+revision/sim/
+
+# Archived earlier runs and the submission package (distributed separately)
+revision/archive/
+revision/submission_package/
+revision/submission_package.zip

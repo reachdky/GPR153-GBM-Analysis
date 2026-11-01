@@ -1,0 +1,6 @@
+cohort,patients_with_BI_and_GDC2024_aliquots
+all primary-tumor aliquots,85
+primary (IDH-wildtype),79
+IDH not mutant (wildtype + unknown),79
+sensitivity (all primary),85
+survival primary,79

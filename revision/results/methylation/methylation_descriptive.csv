@@ -1,0 +1,7 @@
+analysis,n,rho,p,statistic,median_methylated,median_unmethylated
+patients by status source: STP27,202,,,,,
+patients by status source: none,50,,,,,
+GPR153-MGMT within methylated,88,0.11721209106136678,0.2796078467850644,,,
+GPR153-MGMT within unmethylated,114,-0.07330284986852668,0.44035437062385263,,,
+GPR153 by binary status (Mann-Whitney U),202,,0.0038243621914896176,3824.0,2.556947740328284,3.1477617856931093
+GPR153 vs STP27 linear predictor (batch-adjusted),202,-0.10735346144513845,0.1292937772811,,,

@@ -1,0 +1,12 @@
+step,n_samples,n_patients
+GDC STAR - Counts files (TCGA-GBM),391,293
+Primary tumor (sample type 01),372,284
+One aliquot per patient,284,284
+  of which BI batch,155,
+  of which GDC2024 batch,129,
+  of which other batch,0,
+"IDH-wildtype (primary cohort, screen)",252,
+IDH-mutant (sensitivity only),20,
+IDH unknown (sensitivity only),12,
+"Survival evaluable, all primary (sensitivity)",281,
+"Survival evaluable, IDH-wildtype (primary)",249,

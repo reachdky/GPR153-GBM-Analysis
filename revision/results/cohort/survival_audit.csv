@@ -1,0 +1,7 @@
+cohort,selection,time_column,unit_in_source,conversion_to_days,n_selected,n_status_unmapped,n_time_missing,n_time_le_0,time_le_0_rule,n_usable,events,censored,max_time_days
+TCGA-GBM,"primary cohort (IDH-wildtype, sample type 01, one aliquot per patient)","days_to_death (Dead) / max days_to_last_follow_up, days_to_follow_up (Alive)",days,none,252,2,3,0,excluded from survival analyses,249,207,42,3667.0
+CGGA mRNAseq_693,"primary, WHO IV, IDH-wildtype",OS,days (inferred; the source gives no unit),none,109,4,4,0,excluded from survival analyses,105,92,13,3593.0
+CGGA mRNAseq_325,"primary, WHO IV, IDH-wildtype",OS,days (inferred; the source gives no unit),none,74,0,0,0,excluded from survival analyses,74,64,10,4435.0
+GSE13041 GPL96,"GPL96, description = Primary GBM, repeat and duplicate arrays excluded",1.tts(days),days,none,162,0,0,0,excluded from survival analyses,162,149,13,2387.0
+Rembrandt (GSE108474),"DISEASE_TYPE = GBM, with a mapped expression column",OVERALL_SURVIVAL_MONTHS,months,x 30.4375,220,10,10,0,excluded from survival analyses,210,187,23,3667.71875
+CPTAC-3 GBM,"primary_diagnosis Glioblastoma, primary tumor with open STAR counts","days_to_death (Dead) / max days_to_last_follow_up, days_to_follow_up (Alive)",days,none,191,0,0,3,excluded from survival analyses,188,141,47,1972.0

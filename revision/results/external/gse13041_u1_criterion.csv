@@ -1,0 +1,5 @@
+gpr153_probe,mgmt_probe,scale,n_163,pearson_163,reproduces_163,n_191,pearson_191,reproduces_191,reproduces_both,ledger
+221902_at,204880_at,deposited,163,0.1507716121253137,False,191,0.18076661312301354,False,False,confirmed
+221902_at,204880_at,log2,163,0.1668545366963174,False,191,0.19874221152083502,False,False,confirmed
+64942_at,204880_at,deposited,163,0.11557588384663188,True,191,0.11910963969340643,True,True,confirmed
+64942_at,204880_at,log2,163,0.14277164904529632,False,191,0.1519623727828942,False,False,confirmed

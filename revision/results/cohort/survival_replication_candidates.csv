@@ -1,0 +1,10 @@
+cohort,source,glioblastoma,survival_fields,gpr153_on_platform,open_access,n_usable,usable,reason
+TCGA-GBM (discovery),"GDC STAR - Counts, GENCODE v36",yes,yes,yes (ENSG00000158292),yes,249,True,discovery cohort; included in meta-analysis with and without it
+CGGA mRNAseq_693,"CGGA release 20200506, RSEM FPKM","yes (primary, WHO IV, IDH-wildtype)","yes (OS, Censor)",yes,yes,105,True,meets all criteria
+CGGA mRNAseq_325,"CGGA release 20200506, RSEM FPKM","yes (primary, WHO IV, IDH-wildtype)","yes (OS, Censor)",yes,yes,74,True,meets all criteria
+GSE13041 GPL96 primary,"GEO GSE13041, GPL96 MAS5",yes (Primary GBM),"yes (tts, vital status)","yes (221902_at, 64942_at)",yes,162,True,meets all criteria; no IDH data
+GSE4290 GBM,"GEO GSE4290, GPL570",yes,no,"yes (221902_at, 64942_at)",yes,0,False,excluded: no survival data deposited
+GSE16011 (Gravendeel 2009),"GEO GSE16011, GPL8542 (Brainarray ENTREZG v10)",yes (subset),"no (characteristics: age at diagnosis, gender, histology, tissue)",no (Entrez 387509 not in GPL8542),yes,0,False,excluded: GPR153 not on platform; no survival data in GEO record
+GSE68848 (Rembrandt subset),"GEO GSE68848, GPL570",yes (subset),"no (characteristics: disease state, organism part, sample, tumor grading)","yes (221902_at, 64942_at)",yes,0,False,excluded: no survival data in GEO record
+Rembrandt (GSE108474),"GEO GSE108474, GPL570, dChip-normalized",yes (DISEASE_TYPE = GBM),"yes (OVERALL_SURVIVAL_MONTHS, EVENT_OS)","yes (221902_at, 64942_at)",yes,210,True,meets all criteria; no IDH data; primary vs recurrent not recorded
+CPTAC-3 GBM,"GDC CPTAC-3, STAR - Counts, GENCODE v36",yes (GDC primary_diagnosis = Glioblastoma),"yes (GDC vital status, days)",yes (same GDC pipeline as TCGA),yes,188,True,meets all criteria; IDH from open masked MAFs

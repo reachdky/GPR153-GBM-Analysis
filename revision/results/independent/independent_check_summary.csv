@@ -1,0 +1,22 @@
+analysis,values_compared,failed,criterion,largest_difference,pass
+"screen, batch-adjusted: GPR153",2,0,relative difference,1.804554872611413e-15,True
+"screen, batch-adjusted: top 100",200,0,relative difference,6.569808956993739e-14,True
+"screen, batch-adjusted: 500 random",1000,0,relative difference,1.0874899914899096e-12,True
+"screen, batch-adjusted: GPR153 (all-gene implementation)",4,0,relative difference,5.167555359439862e-15,True
+"screen, batch-adjusted: all eligible genes",4,0,rank within the independent tie group (rho equal to 1e-12),4.338418906762614e-12,True
+"screen, pooled: all non-constant genes",2,0,relative difference,1.379632520267521e-12,True
+"screen, pooled: GPR153",4,0,relative difference,7.390856528472833e-15,True
+"screen, pooled: all eligible genes",2,0,relative difference,9.553485805897289e-13,True
+permutation null,5,0,abs. difference <= 3 Monte Carlo SE,0.0013361149149293539,True
+bootstrap rank,4,0,abs. difference <= 3 Monte Carlo SE,0.006954815842267037,True
+Model 3,14,0,relative difference,4.441472733657869e-11,True
+log-rank,16,0,relative difference,1.2765122880732702e-14,True
+Kaplan-Meier,96,0,relative difference,0.0,True
+"meta-analysis, co-expression: external cohorts",16,0,relative difference,1.5468053742799776e-11,True
+"meta-analysis, co-expression: external cohorts + TCGA",16,0,relative difference,3.0344642652426985e-13,True
+"meta-analysis, GSE13041 platforms: all arrays",4,0,relative difference,2.072123252647437e-15,True
+"meta-analysis, GSE13041 platforms: Primary GBM",4,0,relative difference,3.9898342446383124e-15,True
+"meta-analysis, survival: (a) GPR153, without TCGA",16,0,relative difference,9.482773653943803e-13,True
+"meta-analysis, survival: (a) GPR153, with TCGA",16,0,relative difference,7.78190790631607e-12,True
+"meta-analysis, survival: (b) GPR153 + age + sex, without TCGA",16,0,relative difference,1.3160334579741136e-12,True
+"meta-analysis, survival: (b) GPR153 + age + sex, with TCGA",16,0,relative difference,8.327983290074552e-15,True

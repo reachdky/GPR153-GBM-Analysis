@@ -1,0 +1,2 @@
+analysis,n,events,baseline,lr_stat,lr_p,c_baseline,c_with_gpr153,delta_c,c_baseline_optimism_corrected,c_with_gpr153_optimism_corrected,delta_c_optimism_corrected,bootstrap_resamples_used
+"TCGA primary, Model 4 vs baseline",153,123,age+male+kps+meth,1.3449772244666747,0.24615812825464445,0.6146293027360988,0.6161738746690203,0.0015445719329214569,0.5951612380041378,0.5920261877675835,-0.0031350502365542487,1000

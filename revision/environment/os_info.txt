@@ -1,0 +1,7 @@
+captured: 2026-10-20T16:51:23Z
+Linux proton5ubsrv 6.8.0-138-generic #138-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 31 22:41:49 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+VERSION_ID="24.04"
+R version 4.6.1 (2026-06-24)
+CPU cores: 22
+Mem:            62Gi       2.6Gi        54Gi       100Mi       5.8Gi        59Gi

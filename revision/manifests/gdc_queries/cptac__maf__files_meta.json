@@ -1,0 +1,53 @@
+{
+ "query": {
+  "filters": {
+   "op": "and",
+   "content": [
+    {
+     "op": "=",
+     "content": {
+      "field": "cases.project.project_id",
+      "value": "CPTAC-3"
+     }
+    },
+    {
+     "op": "=",
+     "content": {
+      "field": "cases.primary_site",
+      "value": "Brain"
+     }
+    },
+    {
+     "op": "=",
+     "content": {
+      "field": "access",
+      "value": "open"
+     }
+    },
+    {
+     "op": "=",
+     "content": {
+      "field": "data_type",
+      "value": "Masked Somatic Mutation"
+     }
+    }
+   ]
+  },
+  "fields": "file_id,file_name,md5sum,file_size,data_type,analysis.workflow_type,cases.submitter_id,cases.samples.submitter_id,cases.samples.sample_type",
+  "format": "JSON",
+  "size": "10000"
+ },
+ "retrieved_utc": "2026-10-25T21:57:39+00:00",
+ "gdc_status": {
+  "commit": "8f7c2a51ab0084b216ad1b62a3fae8b945439c53",
+  "data_release": "Data Release 46.0 - August 10, 2026",
+  "data_release_version": {
+   "major": 46,
+   "minor": 0,
+   "release_date": "2026-08-10"
+  },
+  "status": "OK",
+  "tag": "8.5.0",
+  "version": 1
+ }
+}

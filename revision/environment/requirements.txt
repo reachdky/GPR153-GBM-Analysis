@@ -1,0 +1,12 @@
+# Versions installed in the original analysis environment (Python 3.12.3)
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.8.0
+lifelines==0.30.0
+matplotlib==3.10.7
+seaborn==0.12.2
+statsmodels==0.14.0
+requests==2.31.0
+GEOparse==2.0.3
+openpyxl==3.1.2

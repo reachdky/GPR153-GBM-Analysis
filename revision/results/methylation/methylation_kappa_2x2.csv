@@ -1,0 +1,5 @@
+stp27,ceccarelli,n,population_n,kappa
+methylated,methylated,86,197,0.989695035831982
+methylated,unmethylated,1,197,0.989695035831982
+unmethylated,methylated,0,197,0.989695035831982
+unmethylated,unmethylated,110,197,0.989695035831982

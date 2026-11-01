@@ -1,0 +1,7 @@
+path,md5,bytes,recorded_from,recorded_utc
+geo/GSE13041_family.soft.gz,5166f42fc066ca0a96c50ac57b9de0b0,73560427,data/raw/geo/GSE13041_family.soft.gz (files read by the final analysis run 2026-10-30),2026-11-01T16:56:09+00:00
+geo/GSE4290_family.soft.gz,6f6cabf66e05de3c877a5617ead986e2,79880273,data/raw/geo/GSE4290_family.soft.gz (files read by the final analysis run 2026-10-30),2026-11-01T16:56:09+00:00
+geo/GSE13041/expression.csv,5d7d1717f5f105dbef7a699bc38536f4,78273808,data/raw/geo/GSE13041/expression.csv (files read by the final analysis run 2026-10-30),2026-11-01T16:56:10+00:00
+geo/GSE13041/clinical.csv,f6f4a20e4275f2251cc27b84776166ad,718079,data/raw/geo/GSE13041/clinical.csv (files read by the final analysis run 2026-10-30),2026-11-01T16:56:10+00:00
+geo/GSE4290/expression.csv,5f2b287f357ff9e72a8c60b2cc16de9e,57474465,data/raw/geo/GSE4290/expression.csv (files read by the final analysis run 2026-10-30),2026-11-01T16:56:10+00:00
+geo/GSE4290/clinical.csv,d7daf8bf500004b0222a8c17c6d49f88,178282,data/raw/geo/GSE4290/clinical.csv (files read by the final analysis run 2026-10-30),2026-11-01T16:56:10+00:00

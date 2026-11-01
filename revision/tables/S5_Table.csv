@@ -1,0 +1,23 @@
+cohort,raw_value,n,event,part,selection,time_column,unit_in_source,conversion_to_days,n_selected,n_status_unmapped,n_time_missing,n_time_le_0,time_le_0_rule,n_usable,events,censored,max_time_days
+TCGA-GBM,Dead,208.0,1,raw strings,,,,,,,,,,,,,
+TCGA-GBM,Alive,42.0,0,raw strings,,,,,,,,,,,,,
+TCGA-GBM,Not Reported,1.0,unmapped (excluded),raw strings,,,,,,,,,,,,,
+TCGA-GBM,<missing>,1.0,unmapped (excluded),raw strings,,,,,,,,,,,,,
+CGGA mRNAseq_693,1,92.0,1,raw strings,,,,,,,,,,,,,
+CGGA mRNAseq_693,0,13.0,0,raw strings,,,,,,,,,,,,,
+CGGA mRNAseq_693,<missing>,4.0,unmapped (excluded),raw strings,,,,,,,,,,,,,
+CGGA mRNAseq_325,1,64.0,1,raw strings,,,,,,,,,,,,,
+CGGA mRNAseq_325,0,10.0,0,raw strings,,,,,,,,,,,,,
+GSE13041 GPL96,DECEASED,149.0,1,raw strings,,,,,,,,,,,,,
+GSE13041 GPL96,ALIVE,13.0,0,raw strings,,,,,,,,,,,,,
+Rembrandt (GSE108474),1,187.0,1,raw strings,,,,,,,,,,,,,
+Rembrandt (GSE108474),0,23.0,0,raw strings,,,,,,,,,,,,,
+Rembrandt (GSE108474),<missing>,10.0,unmapped (excluded),raw strings,,,,,,,,,,,,,
+CPTAC-3 GBM,Dead,141.0,1,raw strings,,,,,,,,,,,,,
+CPTAC-3 GBM,Alive,50.0,0,raw strings,,,,,,,,,,,,,
+TCGA-GBM,,,,counts,"primary cohort (IDH-wildtype, sample type 01, one aliquot per patient)","days_to_death (Dead) / max days_to_last_follow_up, days_to_follow_up (Alive)",days,none,252.0,2.0,3.0,0.0,excluded from survival analyses,249.0,207.0,42.0,3667.0
+CGGA mRNAseq_693,,,,counts,"primary, WHO IV, IDH-wildtype",OS,days (inferred; the source gives no unit),none,109.0,4.0,4.0,0.0,excluded from survival analyses,105.0,92.0,13.0,3593.0
+CGGA mRNAseq_325,,,,counts,"primary, WHO IV, IDH-wildtype",OS,days (inferred; the source gives no unit),none,74.0,0.0,0.0,0.0,excluded from survival analyses,74.0,64.0,10.0,4435.0
+GSE13041 GPL96,,,,counts,"GPL96, description = Primary GBM, repeat and duplicate arrays excluded",1.tts(days),days,none,162.0,0.0,0.0,0.0,excluded from survival analyses,162.0,149.0,13.0,2387.0
+Rembrandt (GSE108474),,,,counts,"DISEASE_TYPE = GBM, with a mapped expression column",OVERALL_SURVIVAL_MONTHS,months,x 30.4375,220.0,10.0,10.0,0.0,excluded from survival analyses,210.0,187.0,23.0,3667.71875
+CPTAC-3 GBM,,,,counts,"primary_diagnosis Glioblastoma, primary tumor with open STAR counts","days_to_death (Dead) / max days_to_last_follow_up, days_to_follow_up (Alive)",days,none,191.0,0.0,0.0,3.0,excluded from survival analyses,188.0,141.0,47.0,1972.0

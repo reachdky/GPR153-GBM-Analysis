@@ -1,0 +1,103 @@
+cohort,variable,level,n_BI,n_GDC2024,n_total
+primary (IDH-wildtype),GDC primary_diagnosis,Glioblastoma,145,106,251
+primary (IDH-wildtype),GDC primary_diagnosis,missing,1,0,1
+primary (IDH-wildtype),GDC morphology (ICD-O-3),9440/3,145,106,251
+primary (IDH-wildtype),GDC morphology (ICD-O-3),missing,1,0,1
+primary (IDH-wildtype),histology (Ceccarelli 2016),glioblastoma,145,106,251
+primary (IDH-wildtype),histology (Ceccarelli 2016),missing,1,0,1
+primary (IDH-wildtype),GDC residual_disease (extent of resection),missing,146,106,252
+primary (IDH-wildtype),IDH status,wildtype,146,106,252
+primary (IDH-wildtype),IDH source,Ceccarelli 2016,4,16,20
+primary (IDH-wildtype),IDH source,GDC open MAF,142,90,232
+primary (IDH-wildtype),IDH source disagreement,False,145,106,251
+primary (IDH-wildtype),IDH source disagreement,True,1,0,1
+primary (IDH-wildtype),MGMT promoter,methylated,45,41,86
+primary (IDH-wildtype),MGMT promoter,missing,30,25,55
+primary (IDH-wildtype),MGMT promoter,unmethylated,71,40,111
+primary (IDH-wildtype),MGMT promoter source,Ceccarelli 2016,116,81,197
+primary (IDH-wildtype),MGMT promoter source,missing,30,25,55
+primary (IDH-wildtype),methylation array (open beta file),HM27,71,56,127
+primary (IDH-wildtype),methylation array (open beta file),HM27+HM450,1,1,2
+primary (IDH-wildtype),methylation array (open beta file),HM450,47,26,73
+primary (IDH-wildtype),methylation array (open beta file),missing,27,23,50
+primary (IDH-wildtype),EGFR amplification (GISTIC = 2),missing,4,2,6
+primary (IDH-wildtype),EGFR amplification (GISTIC = 2),no,68,60,128
+primary (IDH-wildtype),EGFR amplification (GISTIC = 2),yes,74,44,118
+primary (IDH-wildtype),EGFR GISTIC source,gbm_tcga_pan_can_atlas_2018,142,103,245
+primary (IDH-wildtype),EGFR GISTIC source,gbm_tcga_pub2013,0,1,1
+primary (IDH-wildtype),EGFR GISTIC source,missing,4,2,6
+primary (IDH-wildtype),chr7 gain / chr10 loss (Ceccarelli 2016),Gain chr 7 & loss chr 10,97,79,176
+primary (IDH-wildtype),chr7 gain / chr10 loss (Ceccarelli 2016),No combined CNA,45,24,69
+primary (IDH-wildtype),chr7 gain / chr10 loss (Ceccarelli 2016),missing,4,3,7
+primary (IDH-wildtype),TERT promoter (Ceccarelli 2016),Mutant,25,4,29
+primary (IDH-wildtype),TERT promoter (Ceccarelli 2016),missing,121,102,223
+IDH not mutant (wildtype + unknown),GDC primary_diagnosis,Glioblastoma,145,118,263
+IDH not mutant (wildtype + unknown),GDC primary_diagnosis,missing,1,0,1
+IDH not mutant (wildtype + unknown),GDC morphology (ICD-O-3),9440/3,145,118,263
+IDH not mutant (wildtype + unknown),GDC morphology (ICD-O-3),missing,1,0,1
+IDH not mutant (wildtype + unknown),histology (Ceccarelli 2016),glioblastoma,145,118,263
+IDH not mutant (wildtype + unknown),histology (Ceccarelli 2016),missing,1,0,1
+IDH not mutant (wildtype + unknown),GDC residual_disease (extent of resection),missing,146,118,264
+IDH not mutant (wildtype + unknown),IDH status,unknown,0,12,12
+IDH not mutant (wildtype + unknown),IDH status,wildtype,146,106,252
+IDH not mutant (wildtype + unknown),IDH source,Ceccarelli 2016,4,16,20
+IDH not mutant (wildtype + unknown),IDH source,GDC open MAF,142,90,232
+IDH not mutant (wildtype + unknown),IDH source,none,0,12,12
+IDH not mutant (wildtype + unknown),IDH source disagreement,False,145,118,263
+IDH not mutant (wildtype + unknown),IDH source disagreement,True,1,0,1
+IDH not mutant (wildtype + unknown),MGMT promoter,methylated,45,46,91
+IDH not mutant (wildtype + unknown),MGMT promoter,missing,30,27,57
+IDH not mutant (wildtype + unknown),MGMT promoter,unmethylated,71,45,116
+IDH not mutant (wildtype + unknown),MGMT promoter source,Ceccarelli 2016,116,91,207
+IDH not mutant (wildtype + unknown),MGMT promoter source,missing,30,27,57
+IDH not mutant (wildtype + unknown),methylation array (open beta file),HM27,71,66,137
+IDH not mutant (wildtype + unknown),methylation array (open beta file),HM27+HM450,1,1,2
+IDH not mutant (wildtype + unknown),methylation array (open beta file),HM450,47,26,73
+IDH not mutant (wildtype + unknown),methylation array (open beta file),missing,27,25,52
+IDH not mutant (wildtype + unknown),EGFR amplification (GISTIC = 2),missing,4,2,6
+IDH not mutant (wildtype + unknown),EGFR amplification (GISTIC = 2),no,68,67,135
+IDH not mutant (wildtype + unknown),EGFR amplification (GISTIC = 2),yes,74,49,123
+IDH not mutant (wildtype + unknown),EGFR GISTIC source,gbm_tcga_pan_can_atlas_2018,142,115,257
+IDH not mutant (wildtype + unknown),EGFR GISTIC source,gbm_tcga_pub2013,0,1,1
+IDH not mutant (wildtype + unknown),EGFR GISTIC source,missing,4,2,6
+IDH not mutant (wildtype + unknown),chr7 gain / chr10 loss (Ceccarelli 2016),Gain chr 7 & loss chr 10,97,88,185
+IDH not mutant (wildtype + unknown),chr7 gain / chr10 loss (Ceccarelli 2016),No combined CNA,45,27,72
+IDH not mutant (wildtype + unknown),chr7 gain / chr10 loss (Ceccarelli 2016),missing,4,3,7
+IDH not mutant (wildtype + unknown),TERT promoter (Ceccarelli 2016),Mutant,25,4,29
+IDH not mutant (wildtype + unknown),TERT promoter (Ceccarelli 2016),missing,121,114,235
+sensitivity (all primary),GDC primary_diagnosis,Glioblastoma,154,129,283
+sensitivity (all primary),GDC primary_diagnosis,missing,1,0,1
+sensitivity (all primary),GDC morphology (ICD-O-3),9440/3,154,129,283
+sensitivity (all primary),GDC morphology (ICD-O-3),missing,1,0,1
+sensitivity (all primary),histology (Ceccarelli 2016),glioblastoma,154,128,282
+sensitivity (all primary),histology (Ceccarelli 2016),missing,1,1,2
+sensitivity (all primary),GDC residual_disease (extent of resection),missing,155,129,284
+sensitivity (all primary),IDH status,mutant,9,11,20
+sensitivity (all primary),IDH status,unknown,0,12,12
+sensitivity (all primary),IDH status,wildtype,146,106,252
+sensitivity (all primary),IDH source,Ceccarelli 2016,6,18,24
+sensitivity (all primary),IDH source,GDC open MAF,149,99,248
+sensitivity (all primary),IDH source,none,0,12,12
+sensitivity (all primary),IDH source disagreement,False,153,129,282
+sensitivity (all primary),IDH source disagreement,True,2,0,2
+sensitivity (all primary),MGMT promoter,methylated,52,53,105
+sensitivity (all primary),MGMT promoter,missing,31,28,59
+sensitivity (all primary),MGMT promoter,unmethylated,72,48,120
+sensitivity (all primary),MGMT promoter source,Ceccarelli 2016,124,101,225
+sensitivity (all primary),MGMT promoter source,missing,31,28,59
+sensitivity (all primary),methylation array (open beta file),HM27,76,74,150
+sensitivity (all primary),methylation array (open beta file),HM27+HM450,1,1,2
+sensitivity (all primary),methylation array (open beta file),HM450,50,28,78
+sensitivity (all primary),methylation array (open beta file),missing,28,26,54
+sensitivity (all primary),EGFR amplification (GISTIC = 2),missing,6,2,8
+sensitivity (all primary),EGFR amplification (GISTIC = 2),no,75,78,153
+sensitivity (all primary),EGFR amplification (GISTIC = 2),yes,74,49,123
+sensitivity (all primary),EGFR GISTIC source,gbm_tcga_pan_can_atlas_2018,149,126,275
+sensitivity (all primary),EGFR GISTIC source,gbm_tcga_pub2013,0,1,1
+sensitivity (all primary),EGFR GISTIC source,missing,6,2,8
+sensitivity (all primary),chr7 gain / chr10 loss (Ceccarelli 2016),Gain chr 7 & loss chr 10,97,88,185
+sensitivity (all primary),chr7 gain / chr10 loss (Ceccarelli 2016),No combined CNA,52,37,89
+sensitivity (all primary),chr7 gain / chr10 loss (Ceccarelli 2016),missing,6,4,10
+sensitivity (all primary),TERT promoter (Ceccarelli 2016),Mutant,25,4,29
+sensitivity (all primary),TERT promoter (Ceccarelli 2016),WT,4,0,4
+sensitivity (all primary),TERT promoter (Ceccarelli 2016),missing,126,125,251

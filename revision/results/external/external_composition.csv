@@ -1,0 +1,20 @@
+cohort,variable,value,n
+GSE13041 GPL96 primary,histology,Primary GBM,162
+GSE13041 GPL96 primary,grade,missing,162
+GSE13041 GPL96 primary,subtype_deposited,Mes,59
+GSE13041 GPL96 primary,subtype_deposited,Pro,44
+GSE13041 GPL96 primary,subtype_deposited,PN,41
+GSE13041 GPL96 primary,subtype_deposited,ProMes,18
+GSE13041 GPL96 primary,idh_status,not available (no IDH data deposited),162
+GSE4290 GBM,histology,"glioblastoma, grade 4",77
+GSE4290 GBM,grade,missing,77
+GSE4290 GBM,subtype_deposited,missing,77
+GSE4290 GBM,idh_status,not available (no IDH data deposited),77
+CGGA mRNAseq_693,histology,GBM,109
+CGGA mRNAseq_693,grade,WHO IV,109
+CGGA mRNAseq_693,subtype_deposited,missing,109
+CGGA mRNAseq_693,idh_status,Wildtype,109
+CGGA mRNAseq_325,histology,GBM,74
+CGGA mRNAseq_325,grade,WHO IV,74
+CGGA mRNAseq_325,subtype_deposited,missing,74
+CGGA mRNAseq_325,idh_status,Wildtype,74

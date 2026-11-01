@@ -1,0 +1,5 @@
+analysis,dataset_label,n,pearson_r,p,source,status
+"GSE13041, all platforms pooled",GSE13041,218,-0.2850119687221119,1.9293233220410428e-05,data/results/validation/cross_dataset_validation.csv line 4,reported in same-session outputs; generating code unavailable; not reproduced
+"GSE4290, all histologies",GSE4290,180,-0.0809510067864134,0.2800178071697196,data/results/validation/cross_dataset_validation.csv line 3,reported in same-session outputs; generating code unavailable; not reproduced
+GSE13041 GPL570,GSE13041 (GPL570),27,-0.3600391207656628,0.06507947436416,data/results/validation/cross_dataset_validation_filtered.csv line 4,reported in same-session outputs; generating code unavailable; not reproduced
+GSE13041 'Primary' (n matches GPL570 Primary GBM),GSE13041 (Primary),11,-0.4208806555026434,0.1973791776953817,data/results/validation/cross_dataset_validation_filtered.csv line 5,reported in same-session outputs; generating code unavailable; not reproduced

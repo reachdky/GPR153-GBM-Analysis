@@ -1,0 +1,451 @@
+analysis,fold,set,c,n_train,n_test
+primary cohort,1,A,0.5703043022035676,199,50
+primary cohort,1,B,0.565582371458552,199,50
+primary cohort,1,C,0.5613850996852047,199,50
+primary cohort,2,A,0.5019305019305019,199,50
+primary cohort,2,B,0.5791505791505791,199,50
+primary cohort,2,C,0.5868725868725869,199,50
+primary cohort,3,A,0.5527690700104493,199,50
+primary cohort,3,B,0.6959247648902821,199,50
+primary cohort,3,C,0.6624869383490073,199,50
+primary cohort,4,A,0.52392578125,199,50
+primary cohort,4,B,0.486328125,199,50
+primary cohort,4,C,0.515625,199,50
+primary cohort,5,A,0.593996062992126,200,49
+primary cohort,5,B,0.5688976377952756,200,49
+primary cohort,5,C,0.5649606299212598,200,49
+primary cohort,6,A,0.5580736543909348,199,50
+primary cohort,6,B,0.5184135977337111,199,50
+primary cohort,6,C,0.5231350330500472,199,50
+primary cohort,7,A,0.53125,199,50
+primary cohort,7,B,0.6061507936507936,199,50
+primary cohort,7,C,0.6319444444444444,199,50
+primary cohort,8,A,0.5611835506519559,199,50
+primary cohort,8,B,0.6058174523570712,199,50
+primary cohort,8,C,0.6118355065195586,199,50
+primary cohort,9,A,0.6069651741293532,199,50
+primary cohort,9,B,0.6358208955223881,199,50
+primary cohort,9,C,0.6119402985074627,199,50
+primary cohort,10,A,0.4826086956521739,200,49
+primary cohort,10,B,0.5434782608695652,200,49
+primary cohort,10,C,0.5315217391304348,200,49
+primary cohort,11,A,0.5459825750242013,199,50
+primary cohort,11,B,0.6660212971926428,199,50
+primary cohort,11,C,0.6369796708615683,199,50
+primary cohort,12,A,0.5476190476190477,199,50
+primary cohort,12,B,0.6247619047619047,199,50
+primary cohort,12,C,0.6342857142857142,199,50
+primary cohort,13,A,0.5321782178217822,199,50
+primary cohort,13,B,0.5138613861386139,199,50
+primary cohort,13,C,0.5455445544554456,199,50
+primary cohort,14,A,0.48366701791359323,199,50
+primary cohort,14,B,0.5869336143308747,199,50
+primary cohort,14,C,0.5785036880927292,199,50
+primary cohort,15,A,0.574501573976915,200,49
+primary cohort,15,B,0.5435466946484785,200,49
+primary cohort,15,C,0.5351521511017838,200,49
+primary cohort,16,A,0.5330097087378641,199,50
+primary cohort,16,B,0.5825242718446602,199,50
+primary cohort,16,C,0.5864077669902913,199,50
+primary cohort,17,A,0.5592105263157895,199,50
+primary cohort,17,B,0.6032388663967612,199,50
+primary cohort,17,C,0.6305668016194332,199,50
+primary cohort,18,A,0.5464426877470355,199,50
+primary cohort,18,B,0.5484189723320159,199,50
+primary cohort,18,C,0.558300395256917,199,50
+primary cohort,19,A,0.671239837398374,199,50
+primary cohort,19,B,0.6067073170731707,199,50
+primary cohort,19,C,0.6260162601626016,199,50
+primary cohort,20,A,0.565775950668037,200,49
+primary cohort,20,B,0.5519013360739979,200,49
+primary cohort,20,C,0.5477903391572456,200,49
+primary cohort,21,A,0.5318930041152263,199,50
+primary cohort,21,B,0.5164609053497943,199,50
+primary cohort,21,C,0.5339506172839507,199,50
+primary cohort,22,A,0.5262910798122066,199,50
+primary cohort,22,B,0.5568075117370892,199,50
+primary cohort,22,C,0.564319248826291,199,50
+primary cohort,23,A,0.5998980632008155,199,50
+primary cohort,23,B,0.6595310907237513,199,50
+primary cohort,23,C,0.599388379204893,199,50
+primary cohort,24,A,0.5657114624505929,199,50
+primary cohort,24,B,0.599802371541502,199,50
+primary cohort,24,C,0.6007905138339921,199,50
+primary cohort,25,A,0.593298969072165,200,49
+primary cohort,25,B,0.5989690721649484,200,49
+primary cohort,25,C,0.5721649484536082,200,49
+primary cohort,26,A,0.5308471454880295,199,50
+primary cohort,26,B,0.6095764272559853,199,50
+primary cohort,26,C,0.649171270718232,199,50
+primary cohort,27,A,0.5408805031446541,199,50
+primary cohort,27,B,0.5262054507337526,199,50
+primary cohort,27,C,0.5513626834381551,199,50
+primary cohort,28,A,0.533157894736842,199,50
+primary cohort,28,B,0.5673684210526316,199,50
+primary cohort,28,C,0.5189473684210526,199,50
+primary cohort,29,A,0.5488262910798122,199,50
+primary cohort,29,B,0.6084507042253521,199,50
+primary cohort,29,C,0.5981220657276995,199,50
+primary cohort,30,A,0.5991516436903499,200,49
+primary cohort,30,B,0.5652173913043478,200,49
+primary cohort,30,C,0.5291622481442205,200,49
+primary cohort,31,A,0.5480591497227357,199,50
+primary cohort,31,B,0.5573012939001848,199,50
+primary cohort,31,C,0.5499075785582255,199,50
+primary cohort,32,A,0.5242954324586978,199,50
+primary cohort,32,B,0.5821185617103984,199,50
+primary cohort,32,C,0.6015549076773566,199,50
+primary cohort,33,A,0.5702959830866807,199,50
+primary cohort,33,B,0.5845665961945031,199,50
+primary cohort,33,C,0.5930232558139535,199,50
+primary cohort,34,A,0.5980083857442348,199,50
+primary cohort,34,B,0.6436058700209644,199,50
+primary cohort,34,C,0.6163522012578616,199,50
+primary cohort,35,A,0.5517063081695966,200,49
+primary cohort,35,B,0.5604963805584281,200,49
+primary cohort,35,C,0.5729058945191313,200,49
+primary cohort,36,A,0.6237524950099801,199,50
+primary cohort,36,B,0.6946107784431138,199,50
+primary cohort,36,C,0.6746506986027944,199,50
+primary cohort,37,A,0.5512437810945273,199,50
+primary cohort,37,B,0.5114427860696518,199,50
+primary cohort,37,C,0.5064676616915423,199,50
+primary cohort,38,A,0.5083088954056696,199,50
+primary cohort,38,B,0.5806451612903226,199,50
+primary cohort,38,C,0.5943304007820137,199,50
+primary cohort,39,A,0.5570175438596491,199,50
+primary cohort,39,B,0.5565302144249513,199,50
+primary cohort,39,C,0.5789473684210527,199,50
+primary cohort,40,A,0.49682539682539684,200,49
+primary cohort,40,B,0.5661375661375662,200,49
+primary cohort,40,C,0.5650793650793651,200,49
+primary cohort,41,A,0.5830815709969789,199,50
+primary cohort,41,B,0.595166163141994,199,50
+primary cohort,41,C,0.6072507552870091,199,50
+primary cohort,42,A,0.4972144846796657,199,50
+primary cohort,42,B,0.5236768802228412,199,50
+primary cohort,42,C,0.5097493036211699,199,50
+primary cohort,43,A,0.5745216515609265,199,50
+primary cohort,43,B,0.6153071500503524,199,50
+primary cohort,43,C,0.5820745216515609,199,50
+primary cohort,44,A,0.574468085106383,199,50
+primary cohort,44,B,0.6403242147923,199,50
+primary cohort,44,C,0.6291793313069909,199,50
+primary cohort,45,A,0.47958115183246075,200,49
+primary cohort,45,B,0.5392670157068062,200,49
+primary cohort,45,C,0.562303664921466,200,49
+primary cohort,46,A,0.5493358633776091,199,50
+primary cohort,46,B,0.5844402277039848,199,50
+primary cohort,46,C,0.5749525616698292,199,50
+primary cohort,47,A,0.5435588507877664,199,50
+primary cohort,47,B,0.5746061167747915,199,50
+primary cohort,47,C,0.571825764596849,199,50
+primary cohort,48,A,0.5770770770770771,199,50
+primary cohort,48,B,0.5695695695695696,199,50
+primary cohort,48,C,0.5835835835835835,199,50
+primary cohort,49,A,0.5185381355932204,199,50
+primary cohort,49,B,0.5963983050847458,199,50
+primary cohort,49,C,0.5879237288135594,199,50
+primary cohort,50,A,0.5836030204962244,200,49
+primary cohort,50,B,0.6245954692556634,200,49
+primary cohort,50,C,0.5889967637540453,200,49
+"primary cohort, complete cases",1,A,0.6890080428954424,122,31
+"primary cohort, complete cases",1,B,0.6085790884718498,122,31
+"primary cohort, complete cases",1,C,0.6058981233243967,122,31
+"primary cohort, complete cases",2,A,0.5165165165165165,122,31
+"primary cohort, complete cases",2,B,0.5345345345345346,122,31
+"primary cohort, complete cases",2,C,0.5015015015015015,122,31
+"primary cohort, complete cases",3,A,0.5862573099415205,122,31
+"primary cohort, complete cases",3,B,0.5877192982456141,122,31
+"primary cohort, complete cases",3,C,0.6198830409356725,122,31
+"primary cohort, complete cases",4,A,0.6068601583113457,123,30
+"primary cohort, complete cases",4,B,0.5778364116094987,123,30
+"primary cohort, complete cases",4,C,0.5567282321899736,123,30
+"primary cohort, complete cases",5,A,0.6151419558359621,123,30
+"primary cohort, complete cases",5,B,0.5488958990536278,123,30
+"primary cohort, complete cases",5,C,0.555205047318612,123,30
+"primary cohort, complete cases",6,A,0.69,122,31
+"primary cohort, complete cases",6,B,0.6142857142857143,122,31
+"primary cohort, complete cases",6,C,0.6257142857142857,122,31
+"primary cohort, complete cases",7,A,0.6185286103542235,122,31
+"primary cohort, complete cases",7,B,0.5831062670299727,122,31
+"primary cohort, complete cases",7,C,0.5367847411444142,122,31
+"primary cohort, complete cases",8,A,0.6601123595505618,122,31
+"primary cohort, complete cases",8,B,0.6095505617977528,122,31
+"primary cohort, complete cases",8,C,0.6292134831460674,122,31
+"primary cohort, complete cases",9,A,0.5847953216374269,123,30
+"primary cohort, complete cases",9,B,0.5614035087719298,123,30
+"primary cohort, complete cases",9,C,0.5555555555555556,123,30
+"primary cohort, complete cases",10,A,0.5170454545454546,123,30
+"primary cohort, complete cases",10,B,0.4914772727272727,123,30
+"primary cohort, complete cases",10,C,0.5056818181818182,123,30
+"primary cohort, complete cases",11,A,0.628498727735369,122,31
+"primary cohort, complete cases",11,B,0.6310432569974554,122,31
+"primary cohort, complete cases",11,C,0.6310432569974554,122,31
+"primary cohort, complete cases",12,A,0.5797872340425532,122,31
+"primary cohort, complete cases",12,B,0.5186170212765957,122,31
+"primary cohort, complete cases",12,C,0.4973404255319149,122,31
+"primary cohort, complete cases",13,A,0.5710144927536231,122,31
+"primary cohort, complete cases",13,B,0.5420289855072464,122,31
+"primary cohort, complete cases",13,C,0.5159420289855072,122,31
+"primary cohort, complete cases",14,A,0.5,123,30
+"primary cohort, complete cases",14,B,0.5207100591715976,123,30
+"primary cohort, complete cases",14,C,0.514792899408284,123,30
+"primary cohort, complete cases",15,A,0.6501650165016502,123,30
+"primary cohort, complete cases",15,B,0.4752475247524752,123,30
+"primary cohort, complete cases",15,C,0.528052805280528,123,30
+"primary cohort, complete cases",16,A,0.5487465181058496,122,31
+"primary cohort, complete cases",16,B,0.5459610027855153,122,31
+"primary cohort, complete cases",16,C,0.5376044568245125,122,31
+"primary cohort, complete cases",17,A,0.7026239067055393,122,31
+"primary cohort, complete cases",17,B,0.6763848396501457,122,31
+"primary cohort, complete cases",17,C,0.641399416909621,122,31
+"primary cohort, complete cases",18,A,0.5177111716621253,122,31
+"primary cohort, complete cases",18,B,0.5204359673024523,122,31
+"primary cohort, complete cases",18,C,0.5013623978201635,122,31
+"primary cohort, complete cases",19,A,0.5375722543352601,123,30
+"primary cohort, complete cases",19,B,0.5549132947976878,123,30
+"primary cohort, complete cases",19,C,0.5404624277456648,123,30
+"primary cohort, complete cases",20,A,0.6376811594202898,123,30
+"primary cohort, complete cases",20,B,0.48985507246376814,123,30
+"primary cohort, complete cases",20,C,0.4753623188405797,123,30
+"primary cohort, complete cases",21,A,0.5895953757225434,122,31
+"primary cohort, complete cases",21,B,0.6242774566473989,122,31
+"primary cohort, complete cases",21,C,0.6011560693641619,122,31
+"primary cohort, complete cases",22,A,0.5546666666666666,122,31
+"primary cohort, complete cases",22,B,0.5066666666666667,122,31
+"primary cohort, complete cases",22,C,0.4826666666666667,122,31
+"primary cohort, complete cases",23,A,0.5268361581920904,122,31
+"primary cohort, complete cases",23,B,0.4689265536723164,122,31
+"primary cohort, complete cases",23,C,0.4632768361581921,122,31
+"primary cohort, complete cases",24,A,0.6375,123,30
+"primary cohort, complete cases",24,B,0.63125,123,30
+"primary cohort, complete cases",24,C,0.646875,123,30
+"primary cohort, complete cases",25,A,0.5169712793733682,123,30
+"primary cohort, complete cases",25,B,0.5065274151436031,123,30
+"primary cohort, complete cases",25,C,0.4856396866840731,123,30
+"primary cohort, complete cases",26,A,0.6021505376344086,122,31
+"primary cohort, complete cases",26,B,0.5295698924731183,122,31
+"primary cohort, complete cases",26,C,0.5,122,31
+"primary cohort, complete cases",27,A,0.6640211640211641,122,31
+"primary cohort, complete cases",27,B,0.6216931216931217,122,31
+"primary cohort, complete cases",27,C,0.6190476190476191,122,31
+"primary cohort, complete cases",28,A,0.5381471389645777,122,31
+"primary cohort, complete cases",28,B,0.5340599455040872,122,31
+"primary cohort, complete cases",28,C,0.5395095367847411,122,31
+"primary cohort, complete cases",29,A,0.7292993630573248,123,30
+"primary cohort, complete cases",29,B,0.5923566878980892,123,30
+"primary cohort, complete cases",29,C,0.5732484076433121,123,30
+"primary cohort, complete cases",30,A,0.5840978593272171,123,30
+"primary cohort, complete cases",30,B,0.5749235474006116,123,30
+"primary cohort, complete cases",30,C,0.6085626911314985,123,30
+"primary cohort, complete cases",31,A,0.5614250614250614,122,31
+"primary cohort, complete cases",31,B,0.5282555282555282,122,31
+"primary cohort, complete cases",31,C,0.5282555282555282,122,31
+"primary cohort, complete cases",32,A,0.7058823529411765,122,31
+"primary cohort, complete cases",32,B,0.5826330532212886,122,31
+"primary cohort, complete cases",32,C,0.5350140056022409,122,31
+"primary cohort, complete cases",33,A,0.5111731843575419,122,31
+"primary cohort, complete cases",33,B,0.4776536312849162,122,31
+"primary cohort, complete cases",33,C,0.44692737430167595,122,31
+"primary cohort, complete cases",34,A,0.6395705521472392,123,30
+"primary cohort, complete cases",34,B,0.5920245398773006,123,30
+"primary cohort, complete cases",34,C,0.6042944785276073,123,30
+"primary cohort, complete cases",35,A,0.6057692307692307,123,30
+"primary cohort, complete cases",35,B,0.6698717948717948,123,30
+"primary cohort, complete cases",35,C,0.6442307692307693,123,30
+"primary cohort, complete cases",36,A,0.6275071633237822,122,31
+"primary cohort, complete cases",36,B,0.5787965616045845,122,31
+"primary cohort, complete cases",36,C,0.5673352435530086,122,31
+"primary cohort, complete cases",37,A,0.5355191256830601,122,31
+"primary cohort, complete cases",37,B,0.47540983606557374,122,31
+"primary cohort, complete cases",37,C,0.4426229508196721,122,31
+"primary cohort, complete cases",38,A,0.5274725274725275,122,31
+"primary cohort, complete cases",38,B,0.44505494505494503,122,31
+"primary cohort, complete cases",38,C,0.46703296703296704,122,31
+"primary cohort, complete cases",39,A,0.6818181818181818,123,30
+"primary cohort, complete cases",39,B,0.5537190082644629,123,30
+"primary cohort, complete cases",39,C,0.5482093663911846,123,30
+"primary cohort, complete cases",40,A,0.6521739130434783,123,30
+"primary cohort, complete cases",40,B,0.7049689440993789,123,30
+"primary cohort, complete cases",40,C,0.6956521739130435,123,30
+"primary cohort, complete cases",41,A,0.6824512534818942,122,31
+"primary cohort, complete cases",41,B,0.467966573816156,122,31
+"primary cohort, complete cases",41,C,0.4568245125348189,122,31
+"primary cohort, complete cases",42,A,0.5609137055837563,122,31
+"primary cohort, complete cases",42,B,0.5964467005076142,122,31
+"primary cohort, complete cases",42,C,0.5609137055837563,122,31
+"primary cohort, complete cases",43,A,0.6167146974063401,122,31
+"primary cohort, complete cases",43,B,0.6051873198847262,122,31
+"primary cohort, complete cases",43,C,0.5734870317002881,122,31
+"primary cohort, complete cases",44,A,0.5157232704402516,123,30
+"primary cohort, complete cases",44,B,0.5125786163522013,123,30
+"primary cohort, complete cases",44,C,0.5062893081761006,123,30
+"primary cohort, complete cases",45,A,0.6128571428571429,123,30
+"primary cohort, complete cases",45,B,0.5685714285714286,123,30
+"primary cohort, complete cases",45,C,0.5542857142857143,123,30
+"primary cohort, complete cases",46,A,0.612094395280236,122,31
+"primary cohort, complete cases",46,B,0.6047197640117994,122,31
+"primary cohort, complete cases",46,C,0.5870206489675516,122,31
+"primary cohort, complete cases",47,A,0.5873239436619718,122,31
+"primary cohort, complete cases",47,B,0.5830985915492958,122,31
+"primary cohort, complete cases",47,C,0.571830985915493,122,31
+"primary cohort, complete cases",48,A,0.6185983827493261,122,31
+"primary cohort, complete cases",48,B,0.568733153638814,122,31
+"primary cohort, complete cases",48,C,0.5822102425876011,122,31
+"primary cohort, complete cases",49,A,0.5959302325581395,123,30
+"primary cohort, complete cases",49,B,0.4941860465116279,123,30
+"primary cohort, complete cases",49,C,0.49709302325581395,123,30
+"primary cohort, complete cases",50,A,0.590778097982709,123,30
+"primary cohort, complete cases",50,B,0.5878962536023055,123,30
+"primary cohort, complete cases",50,C,0.6138328530259366,123,30
+sensitivity cohort,1,A,0.6236559139784946,224,57
+sensitivity cohort,1,B,0.5860215053763441,224,57
+sensitivity cohort,1,C,0.5737327188940092,224,57
+sensitivity cohort,2,A,0.5643678160919541,225,56
+sensitivity cohort,2,B,0.5831417624521072,225,56
+sensitivity cohort,2,C,0.6015325670498084,225,56
+sensitivity cohort,3,A,0.6382252559726962,225,56
+sensitivity cohort,3,B,0.6339590443686007,225,56
+sensitivity cohort,3,C,0.6552901023890785,225,56
+sensitivity cohort,4,A,0.6269709543568465,225,56
+sensitivity cohort,4,B,0.5775933609958506,225,56
+sensitivity cohort,4,C,0.587551867219917,225,56
+sensitivity cohort,5,A,0.6308,225,56
+sensitivity cohort,5,B,0.6288,225,56
+sensitivity cohort,5,C,0.6408,225,56
+sensitivity cohort,6,A,0.619277108433735,224,57
+sensitivity cohort,6,B,0.6112449799196787,224,57
+sensitivity cohort,6,C,0.6208835341365462,224,57
+sensitivity cohort,7,A,0.6116771159874608,225,56
+sensitivity cohort,7,B,0.6300940438871473,225,56
+sensitivity cohort,7,C,0.6371473354231975,225,56
+sensitivity cohort,8,A,0.5556485355648536,225,56
+sensitivity cohort,8,B,0.5447698744769874,225,56
+sensitivity cohort,8,C,0.5205020920502093,225,56
+sensitivity cohort,9,A,0.6364715189873418,225,56
+sensitivity cohort,9,B,0.6653481012658228,225,56
+sensitivity cohort,9,C,0.6732594936708861,225,56
+sensitivity cohort,10,A,0.5874067937033969,225,56
+sensitivity cohort,10,B,0.6188898094449047,225,56
+sensitivity cohort,10,C,0.5932062966031483,225,56
+sensitivity cohort,11,A,0.6570411392405063,224,57
+sensitivity cohort,11,B,0.6162974683544303,224,57
+sensitivity cohort,11,C,0.6265822784810127,224,57
+sensitivity cohort,12,A,0.6198377581120944,225,56
+sensitivity cohort,12,B,0.6179941002949852,225,56
+sensitivity cohort,12,C,0.616519174041298,225,56
+sensitivity cohort,13,A,0.5878552971576227,225,56
+sensitivity cohort,13,B,0.5633074935400517,225,56
+sensitivity cohort,13,C,0.5727820844099913,225,56
+sensitivity cohort,14,A,0.5384615384615384,225,56
+sensitivity cohort,14,B,0.6153846153846154,225,56
+sensitivity cohort,14,C,0.5990675990675991,225,56
+sensitivity cohort,15,A,0.5274822695035462,225,56
+sensitivity cohort,15,B,0.5966312056737588,225,56
+sensitivity cohort,15,C,0.6046099290780141,225,56
+sensitivity cohort,16,A,0.6262907069102462,224,57
+sensitivity cohort,16,B,0.6060365369340747,224,57
+sensitivity cohort,16,C,0.5988880063542494,224,57
+sensitivity cohort,17,A,0.5482594936708861,225,56
+sensitivity cohort,17,B,0.5743670886075949,225,56
+sensitivity cohort,17,C,0.5814873417721519,225,56
+sensitivity cohort,18,A,0.6312741312741312,225,56
+sensitivity cohort,18,B,0.6154440154440154,225,56
+sensitivity cohort,18,C,0.616988416988417,225,56
+sensitivity cohort,19,A,0.6119148936170212,225,56
+sensitivity cohort,19,B,0.6246808510638298,225,56
+sensitivity cohort,19,C,0.6331914893617021,225,56
+sensitivity cohort,20,A,0.5486111111111112,225,56
+sensitivity cohort,20,B,0.6217320261437909,225,56
+sensitivity cohort,20,C,0.6127450980392157,225,56
+sensitivity cohort,21,A,0.5552486187845304,224,57
+sensitivity cohort,21,B,0.6535122336227308,224,57
+sensitivity cohort,21,C,0.6771902131018153,224,57
+sensitivity cohort,22,A,0.6631037212984956,225,56
+sensitivity cohort,22,B,0.6080760095011877,225,56
+sensitivity cohort,22,C,0.6326207442596992,225,56
+sensitivity cohort,23,A,0.6442610062893082,225,56
+sensitivity cohort,23,B,0.5440251572327044,225,56
+sensitivity cohort,23,C,0.5526729559748428,225,56
+sensitivity cohort,24,A,0.5584307178631052,225,56
+sensitivity cohort,24,B,0.5634390651085142,225,56
+sensitivity cohort,24,C,0.5375626043405676,225,56
+sensitivity cohort,25,A,0.6376929325751421,225,56
+sensitivity cohort,25,B,0.6222583265637693,225,56
+sensitivity cohort,25,C,0.6100731112916328,225,56
+sensitivity cohort,26,A,0.5827715355805243,224,57
+sensitivity cohort,26,B,0.6292134831460674,224,57
+sensitivity cohort,26,C,0.6254681647940075,224,57
+sensitivity cohort,27,A,0.5979557069846678,225,56
+sensitivity cohort,27,B,0.6550255536626917,225,56
+sensitivity cohort,27,C,0.6592844974446337,225,56
+sensitivity cohort,28,A,0.6442457231726283,225,56
+sensitivity cohort,28,B,0.6586314152410575,225,56
+sensitivity cohort,28,C,0.6345256609642301,225,56
+sensitivity cohort,29,A,0.6121688741721855,225,56
+sensitivity cohort,29,B,0.5885761589403974,225,56
+sensitivity cohort,29,C,0.5736754966887417,225,56
+sensitivity cohort,30,A,0.5020746887966805,225,56
+sensitivity cohort,30,B,0.5950207468879668,225,56
+sensitivity cohort,30,C,0.6,225,56
+sensitivity cohort,31,A,0.5726978998384491,224,57
+sensitivity cohort,31,B,0.5694668820678513,224,57
+sensitivity cohort,31,C,0.567043618739903,224,57
+sensitivity cohort,32,A,0.6313050440352281,225,56
+sensitivity cohort,32,B,0.6092874299439551,225,56
+sensitivity cohort,32,C,0.5804643714971978,225,56
+sensitivity cohort,33,A,0.6089271089271089,225,56
+sensitivity cohort,33,B,0.5667485667485668,225,56
+sensitivity cohort,33,C,0.5806715806715806,225,56
+sensitivity cohort,34,A,0.6486704270749396,225,56
+sensitivity cohort,34,B,0.7099113618049959,225,56
+sensitivity cohort,34,C,0.7195809830781628,225,56
+sensitivity cohort,35,A,0.5837301587301588,225,56
+sensitivity cohort,35,B,0.5976190476190476,225,56
+sensitivity cohort,35,C,0.6063492063492063,225,56
+sensitivity cohort,36,A,0.577426810477658,224,57
+sensitivity cohort,36,B,0.6032357473035439,224,57
+sensitivity cohort,36,C,0.6047765793528506,224,57
+sensitivity cohort,37,A,0.6777685262281432,225,56
+sensitivity cohort,37,B,0.5636969192339717,225,56
+sensitivity cohort,37,C,0.5253955037468776,225,56
+sensitivity cohort,38,A,0.5562969140950792,225,56
+sensitivity cohort,38,B,0.6171809841534612,225,56
+sensitivity cohort,38,C,0.6296914095079232,225,56
+sensitivity cohort,39,A,0.600752508361204,225,56
+sensitivity cohort,39,B,0.669732441471572,225,56
+sensitivity cohort,39,C,0.6596989966555183,225,56
+sensitivity cohort,40,A,0.5797592174567344,225,56
+sensitivity cohort,40,B,0.5733634311512416,225,56
+sensitivity cohort,40,C,0.5726109857035365,225,56
+sensitivity cohort,41,A,0.5874509803921568,224,57
+sensitivity cohort,41,B,0.668235294117647,224,57
+sensitivity cohort,41,C,0.6635294117647059,224,57
+sensitivity cohort,42,A,0.5640243902439024,225,56
+sensitivity cohort,42,B,0.59375,225,56
+sensitivity cohort,42,C,0.5952743902439024,225,56
+sensitivity cohort,43,A,0.5607940446650124,225,56
+sensitivity cohort,43,B,0.6120760959470637,225,56
+sensitivity cohort,43,C,0.6311000827129859,225,56
+sensitivity cohort,44,A,0.5861326442721791,225,56
+sensitivity cohort,44,B,0.6442721791559001,225,56
+sensitivity cohort,44,C,0.6520241171403962,225,56
+sensitivity cohort,45,A,0.648757016840417,225,56
+sensitivity cohort,45,B,0.5493183640737771,225,56
+sensitivity cohort,45,C,0.5356856455493184,225,56
+sensitivity cohort,46,A,0.5797275641025641,224,57
+sensitivity cohort,46,B,0.6314102564102564,224,57
+sensitivity cohort,46,C,0.6322115384615384,224,57
+sensitivity cohort,47,A,0.6275468622656887,225,56
+sensitivity cohort,47,B,0.6951915240423798,225,56
+sensitivity cohort,47,C,0.6829665851670742,225,56
+sensitivity cohort,48,A,0.5827366746221162,225,56
+sensitivity cohort,48,B,0.5385839299920445,225,56
+sensitivity cohort,48,C,0.5322195704057279,225,56
+sensitivity cohort,49,A,0.6361852433281004,225,56
+sensitivity cohort,49,B,0.6248037676609105,225,56
+sensitivity cohort,49,C,0.6381475667189953,225,56
+sensitivity cohort,50,A,0.6469135802469136,225,56
+sensitivity cohort,50,B,0.5893004115226338,225,56
+sensitivity cohort,50,C,0.5868312757201646,225,56

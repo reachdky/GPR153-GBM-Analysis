@@ -1,0 +1,2 @@
+stp27_population_n,overlap_with_ceccarelli,kappa,table,single_cpg_patients,single_cpg_mean_beta,primary_measure,reason
+202,197,0.989695035831982,"{0.0: {0.0: 110, 1.0: 1}, 1.0: {0.0: 0, 1.0: 86}}",0,,STP27 linear predictor,STP27 population n = 202 (>= 100) and kappa = 0.990 (>= 0.6)

@@ -1,0 +1,10 @@
+analysis,set,features,n,events,c_mean,c_sd,c_p025,c_p975
+primary cohort,A,age+male,249,207,0.5524616651221975,0.037544954166305,0.48284681816099323,0.619975347811839
+primary cohort,B,age+male+mgmt_log2tpm+egfr_log2tpm+pten_log2tpm+idh1_log2tpm+tert_log2tpm,249,207,0.5828535161272724,0.045725105925161366,0.5119869710851682,0.6881781451617578
+primary cohort,C,age+male+mgmt_log2tpm+egfr_log2tpm+pten_log2tpm+idh1_log2tpm+tert_log2tpm+gpr153_log2tpm,249,207,0.5809938654825039,0.04022966959910522,0.5110713353064067,0.6594909131320829
+"primary cohort, complete cases",A,age+male+kps+meth,153,123,0.5988609633758625,0.05948931857656574,0.5121969537261516,0.7051492025381582
+"primary cohort, complete cases",B,age+male+kps+meth+mgmt_log2tpm+egfr_log2tpm+pten_log2tpm+idh1_log2tpm+tert_log2tpm,153,123,0.5596121831875494,0.05817729083771523,0.4681825692837921,0.6749194045750168
+"primary cohort, complete cases",C,age+male+kps+meth+mgmt_log2tpm+egfr_log2tpm+pten_log2tpm+idh1_log2tpm+tert_log2tpm+gpr153_log2tpm,153,123,0.5515774732099513,0.06008648233749105,0.4491542304041331,0.6462800480769231
+sensitivity cohort,A,age+male+idh_mutant+idh_unknown,281,227,0.6009417298771301,0.03933038370491443,0.5299526050190945,0.661739640335448
+sensitivity cohort,B,age+male+idh_mutant+idh_unknown+mgmt_log2tpm+egfr_log2tpm+pten_log2tpm+idh1_log2tpm+tert_log2tpm,281,227,0.6095340133591298,0.038337894845713885,0.544192718612668,0.689463230463948
+sensitivity cohort,C,age+male+idh_mutant+idh_unknown+mgmt_log2tpm+egfr_log2tpm+pten_log2tpm+idh1_log2tpm+tert_log2tpm+gpr153_log2tpm,281,227,0.6093222858615638,0.04302353234793966,0.5269309187451189,0.681666901452391
