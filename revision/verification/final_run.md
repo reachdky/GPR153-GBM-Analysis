@@ -4,11 +4,11 @@
 
 | Item | Value |
 |---|---|
-| Final run | Run 6, `./run_all.sh --analysis`, 2026-11-01 18:04:00 to 18:37:52 UTC (33 min 52 s), exit 0 |
-| Log | `revision/logs/run_analysis_2026-11-01.log` (start and end: `revision/logs/run_analysis_start_run6.txt`) |
+| Final run | Run 7, `./run_all.sh --analysis`, 2026-11-01 21:51:15 to 22:25:03 UTC (33 min 48 s), exit 0 |
+| Log | `revision/logs/run_analysis_2026-11-01_run7.log` (start and end: `revision/logs/run_analysis_start_run7.txt`) |
 | Code | The revised commit (`revision/submission_package/REVISED_COMMIT.txt`); changes since run 5 are in `revision/DEVIATIONS.md` (2026-11-01) |
 | Inputs | md5-verified 2026-11-01: 63 logged downloads, 2,020 GDC query files, 391 TCGA STAR files, GEO SOFT files and tables (`revision/verification/download_log_md5_check_2026-11-01.csv`, `gdc_query_files_md5_check_2026-11-01.csv`, `revision/manifests/raw_inputs_manifest.csv`) |
-| Previous run | Run 5 (2026-10-30), archived in `revision/archive/run5_2026-10-30/` |
+| Previous runs | Run 6 (2026-11-01, `revision/archive/run6_2026-11-01/`, log `revision/logs/run_analysis_2026-11-01.log`); run 5 (2026-10-30, `revision/archive/run5_2026-10-30/`) |
 
 ## Tests (`revision/results/tests/test_results.csv`)
 
@@ -22,6 +22,15 @@ pipeline script calls lifelines' PH test.
 
 21 analyses, 1,457 values compared with independent implementations (R `survival`, `metafor`, separate Python
 code), 0 failures. T7 and T8 (screen and Model 3 in R) pass.
+
+## Run 7 vs run 6 (`run6_vs_run7_sha256.csv`)
+
+Run 7 differs from run 6 only in the figure font (Arial, read from the four Arial 7.07 font files; DEVIATIONS
+2026-11-01): the 14 figure TIFFs differ; all 110 result files except `tests/test_results.csv` (run times), all 15
+tables, all source-data files, `figure_script_map.csv`, `methods_parameters.json` and `methods_concordance.csv`
+are identical by SHA-256, and `numbers_for_manuscript.md` and `claims_not_reproduced.md` regenerate identically.
+Every text element of every figure resolves to an Arial font file (checked in `plotstyle.save()`; the files used
+are recorded in each TIFF).
 
 ## Run 6 vs run 5
 
@@ -57,6 +66,5 @@ numbered figure.
 
 | Item | Note |
 |---|---|
-| Figure font | DejaVu Sans: Arial is not installed on the analysis machine. PLOS requires Arial, Times or Symbol |
 | NAAS | Not run |
 | Run 2 figures, tables, source data | Not archived |

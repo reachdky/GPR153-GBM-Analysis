@@ -4,13 +4,16 @@ Shared figure style and output for the figure scripts, to the PLOS ONE figure sp
 (journals.plos.org/plosone/s/figures, checked 2026-11-01): TIFF, LZW compression, 300 dpi, RGB without alpha
 channel, flattened; width 2.63-7.5 in and height at most 8.75 in (789-2250 x at most 2625 px at 300 dpi); Arial,
 Times or Symbol in 8-12 pt; main figures named Fig1.tif, Fig2.tif, ...; supporting figures S1_Fig.tif, ...
-save() stops if a figure is outside these limits or any text is smaller than 8 pt. Arial is used when it is
-installed; otherwise DejaVu Sans, and the font used is written into each TIFF (ImageDescription) and printed.
+save() stops if a figure is outside these limits or any text is smaller than 8 pt. Arial is read from the font files
+in ARIAL_DIR (default ~/.local/share/fonts/arial, or $GBM_FONT_DIR; not distributed), else an installed Arial,
+else DejaVu Sans; the font used is written into each TIFF (ImageDescription) and printed.
 One source-data CSV per figure and a row in figure_script_map.csv. Figure text is filled from result files only.
 """
 
 import io
+import os
 import re
+from pathlib import Path
 
 import matplotlib
 
@@ -29,7 +32,17 @@ MIN_PT, MAX_PT = 8, 12
 MIN_W_PX, MAX_W_PX, MAX_H_PX = 789, 2250, 2625
 
 
+ARIAL_DIR = Path(os.environ.get("GBM_FONT_DIR", Path.home() / ".local/share/fonts/arial"))
+ARIAL_FILES = ["arial.ttf", "arialbd.ttf", "ariali.ttf", "arialbi.ttf"]
+
+
 def _font():
+    """Arial from the four font files in ARIAL_DIR (kept outside the repository); else an installed Arial; else
+    DejaVu Sans."""
+    if all((ARIAL_DIR / f).exists() for f in ARIAL_FILES):
+        for f in ARIAL_FILES:
+            font_manager.fontManager.addfont(str(ARIAL_DIR / f))
+        return "Arial"
     try:
         font_manager.findfont(font_manager.FontProperties(family="Arial"), fallback_to_default=False)
         return "Arial"
@@ -81,6 +94,11 @@ def check_text(fig, item):
                     if t.get_visible() and t.get_text().strip() and not MIN_PT <= t.get_fontsize() <= MAX_PT})
     if small:
         raise SystemExit(f"{item}: text outside {MIN_PT}-{MAX_PT} pt: " + "; ".join(small))
+    files = {Path(font_manager.findfont(t.get_fontproperties())).name for t in fig.findobj(Text)
+             if t.get_visible() and t.get_text().strip()}
+    if FONT == "Arial" and not files <= set(ARIAL_FILES) and not all("arial" in f.lower() for f in files):
+        raise SystemExit(f"{item}: text not rendered in Arial: {sorted(files)}")
+    return sorted(files)
 
 
 def save(fig, item, script, sources, frames=None):
@@ -89,7 +107,7 @@ def save(fig, item, script, sources, frames=None):
     common.SRC.mkdir(parents=True, exist_ok=True)
     stem = file_stem(item)
     path = common.FIG / f"{stem}.tif"
-    check_text(fig, item)
+    font_files = check_text(fig, item)
     buf = io.BytesIO()
     fig.savefig(buf, dpi=DPI, format="png", bbox_inches="tight", pad_inches=2 / 72, facecolor="white")
     plt.close(fig)
@@ -100,7 +118,7 @@ def save(fig, item, script, sources, frames=None):
     if not (MIN_W_PX <= w <= MAX_W_PX and h <= MAX_H_PX):
         raise SystemExit(f"{item}: {w} x {h} px at {DPI} dpi is outside {MIN_W_PX}-{MAX_W_PX} x at most {MAX_H_PX} px")
     rgb.save(path, format="TIFF", compression="tiff_lzw", dpi=(DPI, DPI),
-             tiffinfo={270: f"{item}; font {FONT}; {script}"})
+             tiffinfo={270: f"{item}; font {FONT} ({', '.join(font_files)}); {script}"})
     src = []
     if frames is not None:
         import pandas as pd
@@ -108,5 +126,5 @@ def save(fig, item, script, sources, frames=None):
         pd.concat([f.assign(panel=k) for k, f in frames.items()], ignore_index=True).to_csv(sd, index=False)
         src.append(sd)
     common.record_figure(item, script, path, [*src, *sources])
-    print(f"{item}: {path.name}, {w} x {h} px, font {FONT}")
+    print(f"{item}: {path.name}, {w} x {h} px, font {FONT} ({', '.join(font_files)})")
     return path

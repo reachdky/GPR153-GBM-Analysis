@@ -42,7 +42,8 @@ was computed: https://osf.io/qpd2f/ (registered 27 October 2026, 23:44:45 UTC).
 
 **Code and results.** All code, sample manifests (with inclusion and exclusion reasons), download records with
 retrieval dates and checksums, GDC query parameters, the complete result tables, the source data for every
-figure and table, and a figure-to-script map are available at https://github.com/reachdky/GPR153-GBM-Analysis.
+figure and table, and a figure-to-script map are publicly available at
+https://github.com/reachdky/GPR153-GBM-Analysis.
 The revised analysis is commit `{REVISED_COMMIT}`, archived at **[Zenodo DOI: to be assigned]**. The code posted
 with the original submission is tagged `v1-submitted` (commit `e0d6bb5`, 6 July 2026); it is retained in
 `legacy/` for reference and was not used for the revised analysis.
@@ -52,7 +53,7 @@ with the original submission is tagged `v1-submitted` (commit `e0d6bb5`, 6 July 
 | Item | Status |
 |---|---|
 | Zenodo DOI | **[Placeholder]** No archive has been created. |
-| Public availability of the revised code | **[Pending]** The revised commits are not yet on GitHub (push pending the authors' login); GitHub `main` still holds the original submission (`e0d6bb5`). The statement is accurate only after the push, and the archive after the Zenodo deposit. |
+| Public availability of the revised code | Resolved: the revised commits are on GitHub (`main`, public repository, first pushed 2026-11-01; tag `v1-submitted` = `e0d6bb5`). The Zenodo archive is not yet deposited. |
 | Revised commit | Filled in the submission-package copy (and to be updated if later commits are made) of this file from `REVISED_COMMIT.txt`; the repository copy keeps the placeholder `{REVISED_COMMIT}` because a commit cannot contain its own hash. |
 | Original retrieval of the TCGA STAR files and the GEO SOFT files | The files read by the analysis were first downloaded for the original submission (local file timestamps 24-25 December 2025; GDC file creation dates 2021-12-13 to 2024-10-04). The statement gives the 1 November 2026 verified re-retrieval; authors may add the original date. |
 | Resources retrieved but not used by any analysis in the final run | DepMap 24Q4, GDSC release 8.5, the CELLxGENE GBmap core dataset, GSE131928 cell annotation, and the Bady et al. 2012 article files (`revision/manifests/download_dates.md`). Not named in the draft statement. |

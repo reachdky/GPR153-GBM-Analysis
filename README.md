@@ -137,8 +137,11 @@ URL checked by `common.require_registration`).
   full list `revision/environment/R_packages_2026-10-28.csv`, session `revision/environment/R_sessionInfo_2026-10-28.txt`
 - Python pins checked on 2026-11-01: both freeze files resolve on PyPI with `pip install --dry-run` (60 and 29
   packages). The R versions above were all current on CRAN or Bioconductor 3.23 on that date
-- Figures: Arial is used when installed (e.g. Ubuntu package `ttf-mscorefonts-installer`); otherwise DejaVu Sans.
-  The font used is recorded in each TIFF
+- Figures: Arial (PLOS requirement). `pipeline/plotstyle.py` reads `arial.ttf`, `arialbd.ttf`, `ariali.ttf` and
+  `arialbi.ttf` from `~/.local/share/fonts/arial/` (or the folder in `$GBM_FONT_DIR`), else an installed Arial
+  (e.g. Ubuntu package `ttf-mscorefonts-installer`), else DejaVu Sans. The font files are not distributed. The
+  font files used are recorded in each TIFF, and `save()` stops if any text is not rendered in Arial when Arial is
+  selected
 
 ```bash
 python3.12 -m venv .venv && .venv/bin/pip install -r revision/environment/pip_freeze_2026-10-28.txt
