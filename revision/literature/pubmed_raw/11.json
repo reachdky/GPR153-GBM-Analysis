@@ -1,0 +1,59 @@
+{
+ "query": "GPR153 AND (agonist OR antagonist OR ligand OR inhibitor OR modulator OR inverse agonist)",
+ "run_utc": "2026-11-01T18:04:37+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "8",
+   "retmax": "8",
+   "retstart": "0",
+   "idlist": [
+    "42269381",
+    "40886928",
+    "40623996",
+    "35021931",
+    "32643557",
+    "32249236",
+    "28289782",
+    "24503482"
+   ],
+   "translationset": [
+    {
+     "from": "agonist",
+     "to": "\"agonist\"[All Fields] OR \"agonist's\"[All Fields] OR \"agonistic\"[All Fields] OR \"agonistically\"[All Fields] OR \"agonistics\"[All Fields] OR \"agonists\"[Subheading] OR \"agonists\"[All Fields]"
+    },
+    {
+     "from": "antagonist",
+     "to": "\"antagonist\"[All Fields] OR \"antagonists and inhibitors\"[Subheading] OR (\"antagonists\"[All Fields] AND \"inhibitors\"[All Fields]) OR \"antagonists and inhibitors\"[All Fields] OR \"antagonists\"[All Fields]"
+    },
+    {
+     "from": "ligand",
+     "to": "\"ligand's\"[All Fields] OR \"liganded\"[All Fields] OR \"liganding\"[All Fields] OR \"ligands\"[Supplementary Concept] OR \"ligands\"[All Fields] OR \"ligand\"[All Fields] OR \"ligands\"[MeSH Terms]"
+    },
+    {
+     "from": "inhibitor",
+     "to": "\"antagonists and inhibitors\"[Subheading] OR (\"antagonists\"[All Fields] AND \"inhibitors\"[All Fields]) OR \"antagonists and inhibitors\"[All Fields] OR \"inhibitors\"[All Fields] OR \"inhibitor\"[All Fields] OR \"inhibitor's\"[All Fields]"
+    },
+    {
+     "from": "modulator",
+     "to": "\"modulate\"[All Fields] OR \"modulated\"[All Fields] OR \"modulates\"[All Fields] OR \"modulating\"[All Fields] OR \"modulation\"[All Fields] OR \"modulations\"[All Fields] OR \"modulator\"[All Fields] OR \"modulators\"[All Fields]"
+    },
+    {
+     "from": "inverse agonist",
+     "to": "\"drug inverse agonism\"[MeSH Terms] OR (\"drug\"[All Fields] AND \"inverse\"[All Fields] AND \"agonism\"[All Fields]) OR \"drug inverse agonism\"[All Fields] OR (\"inverse\"[All Fields] AND \"agonist\"[All Fields]) OR \"inverse agonist\"[All Fields]"
+    }
+   ],
+   "querytranslation": "\"GPR153\"[All Fields] AND (\"agonist\"[All Fields] OR \"agonist s\"[All Fields] OR \"agonistic\"[All Fields] OR \"agonistically\"[All Fields] OR \"agonistics\"[All Fields] OR \"agonists\"[MeSH Subheading] OR \"agonists\"[All Fields] OR (\"antagonist\"[All Fields] OR \"antagonists and inhibitors\"[MeSH Subheading] OR (\"antagonists\"[All Fields] AND \"inhibitors\"[All Fields]) OR \"antagonists and inhibitors\"[All Fields] OR \"antagonists\"[All Fields]) OR (\"ligand s\"[All Fields] OR \"liganded\"[All Fields] OR \"liganding\"[All Fields] OR \"ligands\"[Supplementary Concept] OR \"ligands\"[All Fields] OR \"ligand\"[All Fields] OR \"ligands\"[MeSH Terms]) OR (\"antagonists and inhibitors\"[MeSH Subheading] OR (\"antagonists\"[All Fields] AND \"inhibitors\"[All Fields]) OR \"antagonists and inhibitors\"[All Fields] OR \"inhibitors\"[All Fields] OR \"inhibitor\"[All Fields] OR \"inhibitor s\"[All Fields]) OR (\"modulate\"[All Fields] OR \"modulated\"[All Fields] OR \"modulates\"[All Fields] OR \"modulating\"[All Fields] OR \"modulation\"[All Fields] OR \"modulations\"[All Fields] OR \"modulator\"[All Fields] OR \"modulators\"[All Fields]) OR (\"drug inverse agonism\"[MeSH Terms] OR (\"drug\"[All Fields] AND \"inverse\"[All Fields] AND \"agonism\"[All Fields]) OR \"drug inverse agonism\"[All Fields] OR (\"inverse\"[All Fields] AND \"agonist\"[All Fields]) OR \"inverse agonist\"[All Fields]))",
+   "warninglist": {
+    "phrasesignored": [],
+    "quotedphrasesnotfound": [],
+    "outputmessages": [
+     "Restrictions achieved. start and count adjusted to 0, 9999"
+    ]
+   }
+  }
+ }
+}

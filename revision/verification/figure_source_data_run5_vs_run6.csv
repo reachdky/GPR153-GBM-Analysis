@@ -1,0 +1,15 @@
+run5_file,run6_file,identical_values,note
+Fig_1.csv,Fig1.csv,True,
+Fig_2.csv,Fig2.csv,True,
+Fig_3.csv,Fig3.csv,True,
+Fig_4.csv,Fig4.csv,True,
+Fig_5.csv,Fig5.csv,True,
+Fig_6.csv,Fig6.csv,True,
+S1_Fig.csv,S1_Fig.csv,True,
+S2_Fig.csv,S2_Fig.csv,True,
+S3_Fig.csv,S3_Fig.csv,True,
+S4_Fig.csv,S4_Fig.csv,True,
+S5_Fig.csv,S5_Fig.csv,False,"shape (211, 13) vs (211, 14); cols differ: ['sample_set']"
+S6_Fig.csv,S6_Fig.csv,True,
+S7_Fig.csv,S7_Fig.csv,True,
+S8_Fig.csv,S8_Fig.csv,True,

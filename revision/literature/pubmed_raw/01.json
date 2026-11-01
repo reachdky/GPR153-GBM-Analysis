@@ -1,0 +1,31 @@
+{
+ "query": "GPR153 AND glioblastoma",
+ "run_utc": "2026-11-01T18:04:31+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "0",
+   "retmax": "0",
+   "retstart": "0",
+   "idlist": [],
+   "translationset": [
+    {
+     "from": "glioblastoma",
+     "to": "\"glioblastoma\"[MeSH Terms] OR \"glioblastoma\"[All Fields] OR \"glioblastomas\"[All Fields] OR \"glioblastoma's\"[All Fields]"
+    }
+   ],
+   "querytranslation": "\"GPR153\"[All Fields] AND (\"glioblastoma\"[MeSH Terms] OR \"glioblastoma\"[All Fields] OR \"glioblastomas\"[All Fields] OR \"glioblastoma s\"[All Fields])",
+   "warninglist": {
+    "phrasesignored": [],
+    "quotedphrasesnotfound": [],
+    "outputmessages": [
+     "Restrictions achieved. start and count adjusted to 0, 9999",
+     "No items found."
+    ]
+   }
+  }
+ }
+}

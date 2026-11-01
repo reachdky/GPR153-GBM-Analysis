@@ -65,6 +65,7 @@ def main():
     kmg = rd("survival/km_groups.csv").set_index(["gene", "split", "group"])
     cm = rd("survival/cox_models.csv")
     ph = rd("survival/cox_ph_tests.csv")
+    ph = ph[ph.sample_set == "complete cases"]
     ind = rd("independent/independent_check.csv")
     ext = rd("external/external_coexpression.csv").set_index("cohort")
     runs = rd("external/gse13041_runs.csv").set_index("run")

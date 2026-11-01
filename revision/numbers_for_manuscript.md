@@ -390,20 +390,20 @@ from the named file and column.
 
 | Quantity | Value | File | Row key | Column |
 |---|---|---|---|---|
-| Model 1, gpr153: p | 0.729 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 1; variant = main; term = gpr153 | p |
-| Model 1, GLOBAL: p | 0.729 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 1; variant = main; term = GLOBAL | p |
-| Model 2, gpr153: p | 0.615 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 2; variant = main; term = gpr153 | p |
-| Model 2, GLOBAL: p | 0.123 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 2; variant = main; term = GLOBAL | p |
-| Model 3, gpr153: p | 0.684 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 3; variant = main; term = gpr153 | p |
-| Model 3, GLOBAL: p | 0.25 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 3; variant = main; term = GLOBAL | p |
-| Model 4, gpr153: p | 0.39 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 4; variant = main; term = gpr153 | p |
-| Model 4, GLOBAL: p | 0.00141 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 4; variant = main; term = GLOBAL | p |
-| Model 5, gpr153: p | 0.398 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 5; variant = main; term = gpr153 | p |
-| Model 5, GLOBAL: p | 0.00313 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 5; variant = main; term = GLOBAL | p |
-| Model 6, gpr153: p | 0.955 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 6; variant = main; term = gpr153 | p |
-| Model 6, GLOBAL: p | 0.0554 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 6; variant = main; term = GLOBAL | p |
-| Model 7, gpr153: p | 0.334 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 7; variant = main; term = gpr153 | p |
-| Model 7, GLOBAL: p | 0.00456 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 7; variant = main; term = GLOBAL | p |
+| Model 1, gpr153: p | 0.729 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 1; variant = main; sample_set = complete cases; term = gpr153 | p |
+| Model 1, GLOBAL: p | 0.729 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 1; variant = main; sample_set = complete cases; term = GLOBAL | p |
+| Model 2, gpr153: p | 0.615 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 2; variant = main; sample_set = complete cases; term = gpr153 | p |
+| Model 2, GLOBAL: p | 0.123 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 2; variant = main; sample_set = complete cases; term = GLOBAL | p |
+| Model 3, gpr153: p | 0.684 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 3; variant = main; sample_set = complete cases; term = gpr153 | p |
+| Model 3, GLOBAL: p | 0.25 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 3; variant = main; sample_set = complete cases; term = GLOBAL | p |
+| Model 4, gpr153: p | 0.39 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 4; variant = main; sample_set = complete cases; term = gpr153 | p |
+| Model 4, GLOBAL: p | 0.00141 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 4; variant = main; sample_set = complete cases; term = GLOBAL | p |
+| Model 5, gpr153: p | 0.398 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 5; variant = main; sample_set = complete cases; term = gpr153 | p |
+| Model 5, GLOBAL: p | 0.00313 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 5; variant = main; sample_set = complete cases; term = GLOBAL | p |
+| Model 6, gpr153: p | 0.955 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 6; variant = main; sample_set = complete cases; term = gpr153 | p |
+| Model 6, GLOBAL: p | 0.0554 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 6; variant = main; sample_set = complete cases; term = GLOBAL | p |
+| Model 7, gpr153: p | 0.334 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 7; variant = main; sample_set = complete cases; term = gpr153 | p |
+| Model 7, GLOBAL: p | 0.00456 | results/survival/cox_ph_tests.csv | cohort = primary; model = Model 7; variant = main; sample_set = complete cases; term = GLOBAL | p |
 
 ## 10. External cohorts: GPR153-MGMT co-expression
 
@@ -461,7 +461,7 @@ from the named file and column.
 | CGGA mRNAseq_325: GPR153 + baseline vs baseline: LR p | 0.0755 | results/external/survival_replication_incremental.csv | analysis = CGGA mRNAseq_325: GPR153 + baseline vs baseline | lr_p |
 | CGGA mRNAseq_325: GPR153 + baseline vs baseline: optimism-corrected delta C | 0.02402 | results/external/survival_replication_incremental.csv | analysis = CGGA mRNAseq_325: GPR153 + baseline vs baseline | delta_c_optimism_corrected |
 
-## 12. Meta-analyses (random effects, REML)
+## 12. Meta-analyses (random effects, DerSimonian-Laird; Hartung-Knapp sensitivity)
 
 | Quantity | Value | File | Row key | Column |
 |---|---|---|---|---|

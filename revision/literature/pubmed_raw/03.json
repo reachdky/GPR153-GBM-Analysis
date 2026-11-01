@@ -1,0 +1,34 @@
+{
+ "query": "GPR153 AND cancer",
+ "run_utc": "2026-11-01T18:04:32+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "3",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "42817842",
+    "42095237",
+    "35021931"
+   ],
+   "translationset": [
+    {
+     "from": "cancer",
+     "to": "\"cancer's\"[All Fields] OR \"cancerated\"[All Fields] OR \"canceration\"[All Fields] OR \"cancerization\"[All Fields] OR \"cancerized\"[All Fields] OR \"cancerous\"[All Fields] OR \"neoplasms\"[MeSH Terms] OR \"neoplasms\"[All Fields] OR \"cancer\"[All Fields] OR \"cancers\"[All Fields]"
+    }
+   ],
+   "querytranslation": "\"GPR153\"[All Fields] AND (\"cancer s\"[All Fields] OR \"cancerated\"[All Fields] OR \"canceration\"[All Fields] OR \"cancerization\"[All Fields] OR \"cancerized\"[All Fields] OR \"cancerous\"[All Fields] OR \"neoplasms\"[MeSH Terms] OR \"neoplasms\"[All Fields] OR \"cancer\"[All Fields] OR \"cancers\"[All Fields])",
+   "warninglist": {
+    "phrasesignored": [],
+    "quotedphrasesnotfound": [],
+    "outputmessages": [
+     "Restrictions achieved. start and count adjusted to 0, 9999"
+    ]
+   }
+  }
+ }
+}

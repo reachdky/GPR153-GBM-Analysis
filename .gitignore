@@ -15,3 +15,7 @@ revision/sim/
 revision/archive/
 revision/submission_package/
 revision/submission_package.zip
+
+# Archive files (deposited separately; see revision/archive_release/README.md)
+revision/archive_release/*.tar.gz
+revision/archive_release/*.zip

@@ -1,10 +1,10 @@
 item,script,output,source_data
-Fig 1,pipeline/f10_main_figures.py,revision/figures/Fig_1.tif,revision/source_data/Fig_1.csv;revision/results/cohort/tcga_cohort_flow.csv;revision/results/cohort/external_cohort_flow.csv
-Fig 2,pipeline/f10_main_figures.py,revision/figures/Fig_2.tif,revision/source_data/Fig_2.csv;revision/results/screen
-Fig 3,pipeline/f10_main_figures.py,revision/figures/Fig_3.tif,revision/source_data/Fig_3.csv;revision/results/survival/km_curves.csv;revision/results/survival/km_groups.csv;revision/results/survival/km_at_risk.csv;revision/results/survival/km_logrank.csv
-Fig 4,pipeline/f10_main_figures.py,revision/figures/Fig_4.tif,revision/source_data/Fig_4.csv;revision/results/survival/cox_models.csv
-Fig 5,pipeline/f10_main_figures.py,revision/figures/Fig_5.tif,revision/source_data/Fig_5.csv;revision/results/external
-Fig 6,pipeline/f10_main_figures.py,revision/figures/Fig_6.tif,revision/source_data/Fig_6.csv;revision/results/enrichment
+Fig 1,pipeline/f10_main_figures.py,revision/figures/Fig1.tif,revision/source_data/Fig1.csv;revision/results/cohort/tcga_cohort_flow.csv;revision/results/cohort/external_cohort_flow.csv
+Fig 2,pipeline/f10_main_figures.py,revision/figures/Fig2.tif,revision/source_data/Fig2.csv;revision/results/screen
+Fig 3,pipeline/f10_main_figures.py,revision/figures/Fig3.tif,revision/source_data/Fig3.csv;revision/results/survival/km_curves.csv;revision/results/survival/km_groups.csv;revision/results/survival/km_at_risk.csv;revision/results/survival/km_logrank.csv
+Fig 4,pipeline/f10_main_figures.py,revision/figures/Fig4.tif,revision/source_data/Fig4.csv;revision/results/survival/cox_models.csv
+Fig 5,pipeline/f10_main_figures.py,revision/figures/Fig5.tif,revision/source_data/Fig5.csv;revision/results/external
+Fig 6,pipeline/f10_main_figures.py,revision/figures/Fig6.tif,revision/source_data/Fig6.csv;revision/results/enrichment
 S1 Fig,pipeline/f11_supplement_figures.py,revision/figures/S1_Fig.tif,revision/source_data/S1_Fig.csv;revision/results/screen/screen_gene_level.csv;revision/results/screen/screen_gene_universe.csv
 S1 Table,pipeline/f12_tables.py,revision/tables/S1_Table.csv,revision/tables/S1_Table.csv;revision/manifests/tcga_samples.csv
 S2 Fig,pipeline/f11_supplement_figures.py,revision/figures/S2_Fig.tif,revision/source_data/S2_Fig.csv;revision/results/pca/pca_scores.csv;revision/results/pca/pca_variance.csv

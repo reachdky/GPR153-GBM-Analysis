@@ -1,0 +1,26 @@
+{
+ "query": "GPR153 AND (GLI OR GLI1)",
+ "run_utc": "2026-11-01T18:04:33+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "0",
+   "retmax": "0",
+   "retstart": "0",
+   "idlist": [],
+   "translationset": [],
+   "querytranslation": "\"GPR153\"[All Fields] AND (\"GLI\"[All Fields] OR \"GLI1\"[All Fields])",
+   "warninglist": {
+    "phrasesignored": [],
+    "quotedphrasesnotfound": [],
+    "outputmessages": [
+     "Restrictions achieved. start and count adjusted to 0, 9999",
+     "No items found."
+    ]
+   }
+  }
+ }
+}

@@ -16,8 +16,9 @@ Likelihood-ratio tests: nested pairs on the larger model's sample, and GPR153 re
 Sensitivity: stratified by batch; batch as covariate; Models 4 and 5 + temozolomide + radiotherapy (immortal-
 time bias; not for inference); IDH-not-mutant and sensitivity cohorts (sensitivity cohort with IDH-mutant and
 IDH-unknown indicators). Proportional hazards: R survival::cox.zph (transform "km", per term and global) for every
-fit, because T5 found lifelines and cox.zph differ (tests/test_schoenfeld.py). Age linearity: Model 3 with a
-restricted cubic spline for age (3 knots at the 10th, 50th, 90th percentiles) vs linear, LR test.
+fit, including the Model 4 complete-case refits of Models 1-3 (column sample_set), because T5 found lifelines and
+cox.zph differ (tests/test_schoenfeld.py). Age linearity: Model 3 with a restricted cubic spline for age (3 knots
+at the 10th, 50th, 90th percentiles) vs linear, LR test.
 
 Inputs
   revision/work/tcga_expr.npz (a10), revision/work/methylation_measure.csv (a15),
@@ -140,11 +141,17 @@ def main():
                 tag = f"{cohort}_{name}_{variant}".replace(" ", "_").replace("+", "plus").replace("(", "").replace(")", "")
                 x.to_csv(tmp / f"{tag}.csv", index=False)
                 jobs.append({"input": tmp / f"{tag}.csv", "prefix": tmp / tag, "covariates": ",".join(cv),
-                             "strata": st or "", "cohort": cohort, "model": name, "variant": variant})
+                             "strata": st or "", "cohort": cohort, "model": name, "variant": variant,
+                             "sample_set": "complete cases"})
         m4x = fits["Model 4"][1]
         for name in ("Model 1", "Model 2", "Model 3"):
-            c, x = fit(m4x, [v for v in fits[name][2] if v in m4x.columns])
+            cv = [v for v in fits[name][2] if v in m4x.columns]
+            c, x = fit(m4x, cv)
             res += rows_from(c, x, cohort, name, "main", "Model 4 complete cases")
+            tag = f"{cohort}_{name}_main_m4sample".replace(" ", "_")
+            x.to_csv(tmp / f"{tag}.csv", index=False)
+            jobs.append({"input": tmp / f"{tag}.csv", "prefix": tmp / tag, "covariates": ",".join(cv), "strata": "",
+                         "cohort": cohort, "model": name, "variant": "main", "sample_set": "Model 4 complete cases"})
         for small, big in NESTED:
             cb, xb, cvb = fits[big]
             sm = [v for v in fits[small][2] if v in cvb]
@@ -182,6 +189,7 @@ def main():
     ph = []
     for j in jb.itertuples():
         z = pd.read_csv(f"{j.prefix}_zph.csv")
+        z.insert(0, "sample_set", j.sample_set)
         z.insert(0, "variant", j.variant)
         z.insert(0, "model", j.model)
         z.insert(0, "cohort", j.cohort)
@@ -189,7 +197,7 @@ def main():
         rc = pd.read_csv(f"{j.prefix}_coxph.csv")
         py = pd.DataFrame(res)
         py = py[(py.cohort == j.cohort) & (py.model == j.model) & (py.variant == j.variant)
-                & (py.sample_set == "complete cases")].set_index("covariate")
+                & (py.sample_set == j.sample_set)].set_index("covariate")
         assert np.allclose(py.loc[rc.term, "coef"].values, rc["coef"].values, rtol=1e-4, atol=1e-6), j.prefix
     pd.concat(ph).assign(source="R survival::cox.zph, transform km").to_csv(out / "cox_ph_tests.csv", index=False)
     for f in tmp.iterdir():

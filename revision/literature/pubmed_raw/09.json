@@ -1,0 +1,40 @@
+{
+ "query": "orphan GPCR AND glioblastoma",
+ "run_utc": "2026-11-01T18:04:36+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "5",
+   "retmax": "5",
+   "retstart": "0",
+   "idlist": [
+    "34359676",
+    "32798453",
+    "27018161",
+    "21618836",
+    "15674329"
+   ],
+   "translationset": [
+    {
+     "from": "orphan",
+     "to": "\"child, orphaned\"[MeSH Terms] OR (\"child\"[All Fields] AND \"orphaned\"[All Fields]) OR \"orphaned child\"[All Fields] OR \"orphan\"[All Fields] OR \"orphaned\"[All Fields] OR \"orphans\"[All Fields] OR \"orphaning\"[All Fields]"
+    },
+    {
+     "from": "glioblastoma",
+     "to": "\"glioblastoma\"[MeSH Terms] OR \"glioblastoma\"[All Fields] OR \"glioblastomas\"[All Fields] OR \"glioblastoma's\"[All Fields]"
+    }
+   ],
+   "querytranslation": "(\"child, orphaned\"[MeSH Terms] OR (\"child\"[All Fields] AND \"orphaned\"[All Fields]) OR \"orphaned child\"[All Fields] OR \"orphan\"[All Fields] OR \"orphaned\"[All Fields] OR \"orphans\"[All Fields] OR \"orphaning\"[All Fields]) AND \"GPCR\"[All Fields] AND (\"glioblastoma\"[MeSH Terms] OR \"glioblastoma\"[All Fields] OR \"glioblastomas\"[All Fields] OR \"glioblastoma s\"[All Fields])",
+   "warninglist": {
+    "phrasesignored": [],
+    "quotedphrasesnotfound": [],
+    "outputmessages": [
+     "Restrictions achieved. start and count adjusted to 0, 9999"
+    ]
+   }
+  }
+ }
+}

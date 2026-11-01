@@ -1,0 +1,38 @@
+{
+ "query": "GPR153 AND (leukemia OR AML)",
+ "run_utc": "2026-11-01T18:04:35+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "3",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "42817842",
+    "42719965",
+    "42095237"
+   ],
+   "translationset": [
+    {
+     "from": "leukemia",
+     "to": "\"leukaemia\"[All Fields] OR \"leukemia\"[MeSH Terms] OR \"leukemia\"[All Fields] OR \"leukaemias\"[All Fields] OR \"leukemias\"[All Fields] OR \"leukemia's\"[All Fields]"
+    },
+    {
+     "from": "AML",
+     "to": "\"APL Mach Learn\"[Journal:__jid9918900929906676] OR \"aml\"[All Fields]"
+    }
+   ],
+   "querytranslation": "\"GPR153\"[All Fields] AND (\"leukaemia\"[All Fields] OR \"leukemia\"[MeSH Terms] OR \"leukemia\"[All Fields] OR \"leukaemias\"[All Fields] OR \"leukemias\"[All Fields] OR \"leukemia s\"[All Fields] OR (\"apl mach learn\"[Journal] OR \"aml\"[All Fields]))",
+   "warninglist": {
+    "phrasesignored": [],
+    "quotedphrasesnotfound": [],
+    "outputmessages": [
+     "Restrictions achieved. start and count adjusted to 0, 9999"
+    ]
+   }
+  }
+ }
+}

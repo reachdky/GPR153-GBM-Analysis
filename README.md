@@ -31,6 +31,9 @@ Code versions:
 | `revision/methods_parameters.json` | Fixed parameters, seeds, package versions, per-analysis n |
 | `revision/environment/` | Python and R package versions, OS, install logs |
 | `revision/verification/` | Final-run identification, run-to-run comparisons |
+| `revision/literature/` | PubMed and Europe PMC searches (queries, dates, counts, records), citation audit |
+| `revision/manifests/provenance.md` | Source, version, documented or inferred retrieval date and checksum record for every input |
+| `revision/archive_release/` | Archive files for a permanent deposit and the deposit steps |
 | `revision/numbers_for_manuscript.md`, `claims_not_reproduced.md`, `data_availability_draft.md`, `editor_checklist.md` | Manuscript-support documents |
 | `legacy/` | Scripts as posted at initial submission (superseded) |
 
@@ -95,12 +98,14 @@ URL checked by `common.require_registration`).
 
 | Script | Reads | Writes | Produces |
 |---|---|---|---|
-| `f10_main_figures.py` | `results/cohort/`, `screen/`, `survival/`, `external/`, `enrichment/` | `revision/figures/Fig_<n>.tif`, `revision/source_data/Fig_<n>.csv`, rows in `figure_script_map.csv` | Fig 1-6 |
+| `f10_main_figures.py` | `results/cohort/`, `screen/`, `survival/`, `external/`, `enrichment/` | `revision/figures/Fig<n>.tif`, `revision/source_data/Fig<n>.csv`, rows in `figure_script_map.csv` | Fig 1-6 |
 | `f11_supplement_figures.py` | `results/screen/`, `pca/`, `survival/`, `enrichment/`, `de/`, `forest/` | `revision/figures/S<n>_Fig.tif`, `revision/source_data/S<n>_Fig.csv`, rows in `figure_script_map.csv` | S1-S8 Fig |
 | `f12_tables.py` | result files listed per table in `figure_script_map.csv`; both manifests | `revision/tables/<item>.csv`, rows in `figure_script_map.csv` | Tables 1-6, S1-S8 Table |
 | `x02_claims_ledger.py` | `results/claims_trace_v1.csv` and the result files it cites | `results/claims_trace_v2.csv`, `revision/tables/S9_Table.csv`, "Revised value" rows in `methods_concordance.csv` | S9 Table |
 | `x03_manuscript_numbers.py` | the result files named in each output row | `revision/numbers_for_manuscript.md` (value, file, row key, column) | — (not run by `run_all.sh`) |
 | `x04_claims_not_reproduced.py` | `revision/tables/S9_Table.csv` | `revision/claims_not_reproduced.md` | — (not run by `run_all.sh`) |
+| `x05_pubmed_search.py` | Internet: NCBI E-utilities | `revision/literature/pubmed_searches.csv`, `pubmed_records.csv`, `pubmed_raw/` | Literature search record (not run by `run_all.sh`) |
+| `x06_citation_audit.py` | `revision/literature/references_to_audit.csv`; Internet: Crossref, NCBI E-utilities | `revision/literature/citation_audit.csv` | Citation audit (not run by `run_all.sh`) |
 | `x01_plan_summary_pdf.py` | `revision/PREREGISTRATION.md` | `revision/PREREGISTRATION_summary.pdf`, `.png` | — (not run by `run_all.sh`) |
 | `sim/s00_make_sim_data.py` | both manifests, `results/cohort/` | `revision/sim/**` (simulated stand-ins for every loader output) | — (`--sim` only) |
 
@@ -127,14 +132,25 @@ URL checked by `common.require_registration`).
 - Ubuntu 24.04.5 LTS, Python 3.12.3, R 4.6.1
 - `.venv` (analysis): `revision/environment/pip_freeze_2026-10-28.txt`
 - `.venv_rsf` (survival forest; scikit-survival 0.28.0 needs numpy >= 2): `revision/environment/pip_freeze_venv_rsf_2026-10-28.txt`
-- R packages in `.Rlib` (Bioconductor 3.23): survival 3.8-12, metafor 5.2-1, limma 3.68.5, DESeq2 1.52.0,
-  apeglm 1.34.0, mice 3.19.0, dplyr 1.2.1 (T14); full list `revision/environment/R_packages_2026-10-28.csv`,
-  session `revision/environment/R_sessionInfo_2026-10-28.txt`
+- R 4.6.1 with survival 3.8-12 (recommended package shipped with R); in `.Rlib`: BiocManager 1.30.27
+  (Bioconductor 3.23), metafor 5.2-1, mice 3.19.0, dplyr 1.2.1 (T14), limma 3.68.5, DESeq2 1.52.0, apeglm 1.34.0;
+  full list `revision/environment/R_packages_2026-10-28.csv`, session `revision/environment/R_sessionInfo_2026-10-28.txt`
+- Python pins checked on 2026-11-01: both freeze files resolve on PyPI with `pip install --dry-run` (60 and 29
+  packages). The R versions above were all current on CRAN or Bioconductor 3.23 on that date
+- Figures: Arial is used when installed (e.g. Ubuntu package `ttf-mscorefonts-installer`); otherwise DejaVu Sans.
+  The font used is recorded in each TIFF
 
 ```bash
 python3.12 -m venv .venv && .venv/bin/pip install -r revision/environment/pip_freeze_2026-10-28.txt
 python3.12 -m venv .venv_rsf && .venv_rsf/bin/pip install -r revision/environment/pip_freeze_venv_rsf_2026-10-28.txt
-mkdir -p .Rlib && R_LIBS_USER=$PWD/.Rlib Rscript -e 'install.packages(c("BiocManager","metafor","mice","dplyr"), repos="https://cloud.r-project.org"); BiocManager::install(version="3.23"); BiocManager::install(c("limma","DESeq2","apeglm"))'
+mkdir -p .Rlib && R_LIBS_USER=$PWD/.Rlib Rscript -e '
+  r <- "https://cloud.r-project.org"; install.packages("remotes", repos = r)
+  for (p in c("BiocManager@1.30.27", "metafor@5.2-1", "mice@3.19.0", "dplyr@1.2.1"))
+    remotes::install_version(sub("@.*", "", p), version = sub(".*@", "", p), repos = r, upgrade = "never")
+  BiocManager::install(version = "3.23", ask = FALSE)
+  BiocManager::install(c("limma", "DESeq2", "apeglm"), ask = FALSE, update = FALSE)
+  stopifnot(packageVersion("survival") == "3.8.12", packageVersion("limma") == "3.68.5",
+            packageVersion("DESeq2") == "1.52.0", packageVersion("apeglm") == "1.34.0")'
 ```
 
 ### Data

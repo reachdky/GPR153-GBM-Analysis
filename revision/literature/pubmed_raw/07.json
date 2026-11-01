@@ -1,0 +1,31 @@
+{
+ "query": "GPR153 AND temozolomide",
+ "run_utc": "2026-11-01T18:04:35+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "0",
+   "retmax": "0",
+   "retstart": "0",
+   "idlist": [],
+   "translationset": [
+    {
+     "from": "temozolomide",
+     "to": "\"temozolomide\"[Supplementary Concept] OR \"temozolomide\"[All Fields] OR \"temozolomide\"[MeSH Terms] OR \"temozolomide's\"[All Fields]"
+    }
+   ],
+   "querytranslation": "\"GPR153\"[All Fields] AND (\"temozolomide\"[Supplementary Concept] OR \"temozolomide\"[All Fields] OR \"temozolomide\"[MeSH Terms] OR \"temozolomide s\"[All Fields])",
+   "warninglist": {
+    "phrasesignored": [],
+    "quotedphrasesnotfound": [],
+    "outputmessages": [
+     "Restrictions achieved. start and count adjusted to 0, 9999",
+     "No items found."
+    ]
+   }
+  }
+ }
+}

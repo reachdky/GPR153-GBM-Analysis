@@ -1,0 +1,46 @@
+{
+ "query": "GPR153 AND (small molecule OR compound OR drug OR screening)",
+ "run_utc": "2026-11-01T18:04:38+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "3",
+   "retmax": "3",
+   "retstart": "0",
+   "idlist": [
+    "42269381",
+    "28289782",
+    "21981325"
+   ],
+   "translationset": [
+    {
+     "from": "small",
+     "to": "\"Small\"[Journal:__jid101235338] OR \"small\"[All Fields]"
+    },
+    {
+     "from": "molecule",
+     "to": "\"molecule\"[All Fields] OR \"molecule's\"[All Fields] OR \"molecules\"[All Fields]"
+    },
+    {
+     "from": "compound",
+     "to": "\"compound\"[All Fields] OR \"compound's\"[All Fields] OR \"compounds\"[All Fields]"
+    },
+    {
+     "from": "screening",
+     "to": "\"diagnosis\"[Subheading] OR \"diagnosis\"[All Fields] OR \"screening\"[All Fields] OR \"mass screening\"[MeSH Terms] OR (\"mass\"[All Fields] AND \"screening\"[All Fields]) OR \"mass screening\"[All Fields] OR \"early detection of cancer\"[MeSH Terms] OR (\"early\"[All Fields] AND \"detection\"[All Fields] AND \"cancer\"[All Fields]) OR \"early detection of cancer\"[All Fields] OR \"screen\"[All Fields] OR \"screenings\"[All Fields] OR \"screened\"[All Fields] OR \"screens\"[All Fields]"
+    }
+   ],
+   "querytranslation": "\"GPR153\"[All Fields] AND (((\"small\"[Journal] OR \"small\"[All Fields]) AND (\"molecule\"[All Fields] OR \"molecule s\"[All Fields] OR \"molecules\"[All Fields])) OR (\"compound\"[All Fields] OR \"compound s\"[All Fields] OR \"compounds\"[All Fields]) OR \"drug\"[All Fields] OR (\"diagnosis\"[MeSH Subheading] OR \"diagnosis\"[All Fields] OR \"screening\"[All Fields] OR \"mass screening\"[MeSH Terms] OR (\"mass\"[All Fields] AND \"screening\"[All Fields]) OR \"mass screening\"[All Fields] OR \"early detection of cancer\"[MeSH Terms] OR (\"early\"[All Fields] AND \"detection\"[All Fields] AND \"cancer\"[All Fields]) OR \"early detection of cancer\"[All Fields] OR \"screen\"[All Fields] OR \"screenings\"[All Fields] OR \"screened\"[All Fields] OR \"screens\"[All Fields]))",
+   "warninglist": {
+    "phrasesignored": [],
+    "quotedphrasesnotfound": [],
+    "outputmessages": [
+     "Restrictions achieved. start and count adjusted to 0, 9999"
+    ]
+   }
+  }
+ }
+}

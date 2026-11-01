@@ -1,0 +1,44 @@
+{
+ "query": "GPR153",
+ "run_utc": "2026-11-01T18:04:36+00:00",
+ "response": {
+  "header": {
+   "type": "esearch",
+   "version": "0.3"
+  },
+  "esearchresult": {
+   "count": "18",
+   "retmax": "18",
+   "retstart": "0",
+   "idlist": [
+    "42817842",
+    "42792867",
+    "42719965",
+    "42269381",
+    "42095237",
+    "40886928",
+    "40623996",
+    "35021931",
+    "32643557",
+    "32249236",
+    "28960688",
+    "28442638",
+    "28289782",
+    "26678350",
+    "26508570",
+    "24503482",
+    "21981325",
+    "15777626"
+   ],
+   "translationset": [],
+   "querytranslation": "\"GPR153\"[All Fields]",
+   "warninglist": {
+    "phrasesignored": [],
+    "quotedphrasesnotfound": [],
+    "outputmessages": [
+     "Restrictions achieved. start and count adjusted to 0, 9999"
+    ]
+   }
+  }
+ }
+}

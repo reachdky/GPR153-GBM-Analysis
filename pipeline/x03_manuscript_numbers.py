@@ -253,7 +253,7 @@ def main():
     ph = pd.read_csv(R / "survival/cox_ph_tests.csv")
     for m in sorted(ph[(ph.cohort == "primary") & (ph.variant == "main")].model.unique()):
         for t in ["gpr153", "GLOBAL"]:
-            k = {"cohort": "primary", "model": m, "variant": "main", "term": t}
+            k = {"cohort": "primary", "model": m, "variant": "main", "sample_set": "complete cases", "term": t}
             add(S, f"{m}, {t}: p", "survival/cox_ph_tests.csv", k, "p")
 
     S = "10. External cohorts: GPR153-MGMT co-expression"
@@ -282,7 +282,7 @@ def main():
         add(S, f"{a}: optimism-corrected delta C", "external/survival_replication_incremental.csv",
             {"analysis": a}, "delta_c_optimism_corrected")
 
-    S = "12. Meta-analyses (random effects, REML)"
+    S = "12. Meta-analyses (random effects, DerSimonian-Laird; Hartung-Knapp sensitivity)"
     for a in ["external cohorts", "external cohorts + TCGA"]:
         k = {"analysis": a}
         add(S, f"Co-expression, {a}: pooled rho [95% CI]", "external/external_meta.csv", k,
