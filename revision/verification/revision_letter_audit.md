@@ -11,7 +11,7 @@ requirements are in `revision/editor_checklist.md`.
 |---|---|---|
 | Proportional-hazards tests were missing for Models 1-3 refitted on the Model 4 complete-case sample (plan 6.2 requires a PH test for every reported fit; letter Section 4, Cox 3) | `pipeline/a20_cox.py` runs R `cox.zph` for those fits; `cox_ph_tests.csv` gains `sample_set` | Run 6 (DEVIATIONS 2026-11-01) |
 | Figures did not meet the PLOS specifications (width, alpha channel, text below 8 pt) and had readability defects | `pipeline/plotstyle.py`, `f10`, `f11` (DEVIATIONS 2026-11-01) | Run 6 |
-| New result from the added PH tests (not a correction) | On the Model 4 sample, Models 2-3 violate PH globally (p 0.003-0.008), driven by age and sex; GPR153 term p 0.34-0.54. Reported in `final_run.md`; to be stated in the manuscript | — |
+| New result from the added PH tests (not a correction) | On the Model 4 sample, Models 2-3 violate PH globally (p 0.0035-0.0079 across the three cohorts), driven by age (and sex in Model 3); GPR153 term p 0.16-0.28 (Model 2) and 0.34-0.54 (Model 3) (corrected 2026-11-02; the earlier text gave 0.34-0.54 for both). Reported in `final_run.md`; to be stated in the manuscript | — |
 | `numbers_for_manuscript.md` labelled the meta-analyses "REML"; the code and the plan use DerSimonian-Laird | Header corrected in `pipeline/x03_manuscript_numbers.py` | Document regenerated |
 
 ## Section 1: reproducible version

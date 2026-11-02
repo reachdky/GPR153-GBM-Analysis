@@ -42,8 +42,11 @@ are recorded in each TIFF).
 | Figures | Redrawn to the PLOS specifications from the same values; main figures renamed `Fig1.tif` ... | `DEVIATIONS.md` 2026-11-01 |
 
 New PH results (not previously computed): on the Model 4 complete-case sample, Models 2 and 3 have global
-`cox.zph` p 0.003-0.008 in all three cohorts, driven by age (p 0.0008-0.003) and sex (p 0.018-0.026); the GPR153
-term has p 0.34-0.54. The same pattern was already present for Models 4 and 5 on that sample (global p 0.0014
+`cox.zph` p 0.0035-0.0079 in all three cohorts (primary cohort: Model 2 0.0043, Model 3 0.0035), driven by age
+(p 0.0007-0.0032) and, in Model 3, sex (p 0.018-0.026); the GPR153 term has p 0.16-0.28 in Model 2 and 0.34-0.54
+in Model 3 (primary cohort 0.21 and 0.37). Model 1 on that sample: p 0.15-0.29. (Corrected 2026-11-02: the
+earlier text gave the GPR153 range as 0.34-0.54 for both models and the age range as 0.0008-0.003; values from
+`results/survival/cox_ph_tests.csv`, unchanged since run 6.) The same pattern was already present for Models 4 and 5 on that sample (global p 0.0014
 and 0.0031 in run 5 and run 6).
 
 ## Earlier comparisons
