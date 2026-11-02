@@ -7,7 +7,8 @@ are relative to the repository root.
 **Status key**
 - **Done**: completed and verified; evidence given.
 - **Done, account action pending**: prepared and verified; a step needs the authors' account (Zenodo).
-- **Next phase: manuscript**: manuscript text (writing has not started; evidence for it is listed).
+- **Drafted (author files)**: written in the revised manuscript or submission documents, which are kept with the author and are not in this repository until publication.
+- **Not supplied**: required, and not yet provided by the author.
 - **Next phase: submission**: an action in Editorial Manager or the submission form.
 - **Not applicable**: the item does not apply to the revised method (reason given).
 - **Not pursued**: an author decision; does not block completion.
@@ -17,9 +18,9 @@ are relative to the repository root.
 
 | # | Material | Status | Evidence / next step |
 |---|---|---|---|
-| 1 | Clean revised manuscript | Next phase: manuscript | Sources: `revision/numbers_for_manuscript.md`, `revision/claims_not_reproduced.md`, `revision/literature/literature_search_summary.md` |
-| 2 | Tracked-changes version | Next phase: manuscript | — |
-| 3 | Point-by-point response | Next phase: manuscript | Sources: this checklist, `revision/verification/revision_letter_audit.md`, `revision/tables/S9_Table.csv`, `revision/DEVIATIONS.md` |
+| 1 | Clean revised manuscript | Drafted (author files) | Sources: `revision/numbers_for_manuscript.md`, `revision/claims_not_reproduced.md`, `revision/literature/literature_search_summary.md` |
+| 2 | Tracked-changes version | Drafted (author files) | — |
+| 3 | Point-by-point response | Drafted (author files) | Sources: this checklist, `revision/verification/revision_letter_audit.md`, `revision/tables/S9_Table.csv`, `revision/DEVIATIONS.md` |
 | 4 | Frozen code archive / permanent release | Done, account action pending | Analysis version `55e41b3` (final run 7), public on GitHub; later commits licence, documentation and archive build script only; tag `v1-submitted` = `e0d6bb5`; archive files in `revision/archive_release/` (archive commit in `REVISED_COMMIT.txt`). Zenodo DOI 10.5281/zenodo.23872434 reserved; record not yet published (authors' account) |
 | 5 | Exact software environment | Done | `revision/environment/` (pip freezes resolve exactly on PyPI, checked 2026-11-01; R versions); `README.md` install commands with exact versions |
 | 6 | TCGA and external-cohort manifests | Done | `revision/manifests/tcga_samples.csv` (S1 Table), `external_cohort_samples.csv` (S2 Table) |
@@ -27,21 +28,21 @@ are relative to the repository root.
 | 8 | Cox, KM, DE, ML, enrichment, validation outputs | Done | `revision/results/{survival,de,forest,enrichment,external}/` |
 | 9 | Source data for every figure and table | Done | `revision/source_data/Fig1.csv`-`Fig6.csv`, `S1_Fig.csv`-`S8_Fig.csv`; tables in `revision/tables/` |
 | 10 | Figure-to-script map | Done | `revision/figure_script_map.csv`; every entry regenerated from results and compared by SHA-256 (`revision/verification/final_outputs_regenerated_sha256.csv`) |
-| 11 | Corrected Data Availability statement | Next phase: manuscript (draft done) | `revision/data_availability_draft.md`; reserved Zenodo DOI stated as not yet published |
+| 11 | Corrected Data Availability statement | Drafted (author files) | `revision/data_availability_draft.md`; reserved Zenodo DOI stated as not yet published |
 | 12 | Updated PubMed search summary with final date | Done (evidence); statement is next phase | `revision/literature/literature_search_summary.md` (searches run 2026-11-01; queries, counts, PMIDs) |
-| 13 | AI-use declaration | Next phase: manuscript | Authors' own declaration of tools, tasks and verification |
-| 14 | Statement of analyses or claims not reproduced and removed | Next phase: manuscript (evidence done) | `revision/claims_not_reproduced.md`; which claims are removed is an author decision |
+| 13 | AI-use declaration | **Not supplied** | The author's declaration of tools, tasks and verification has not been provided |
+| 14 | Statement of analyses or claims not reproduced and removed | Drafted (author files) | `revision/claims_not_reproduced.md` (evidence); statement lists the 10 removed and 15 changed claims |
 
 ## B. Journal requirements
 
 | # | Requirement | Status | Evidence / next step |
 |---|---|---|---|
 | 1 | PLOS style and file naming | Done for figures and tables; manuscript next phase | `Fig1.tif`-`Fig6.tif`, `S1_Fig.tif`-`S8_Fig.tif`, `S1_Table.csv`-`S9_Table.csv` |
-| 2 | PLOS LaTeX template | Next phase: manuscript | — |
+| 2 | PLOS LaTeX template | Drafted (author files) | — |
 | 3 | Data sharing plan on the submission form | Next phase: submission | All data open access (`revision/manifests/provenance.md`) |
 | 4 | Identical title on form and manuscript | Next phase: submission | — |
-| 5 | Cite Figures 6, 7, 8 in the text | Next phase: manuscript | The revised set is Fig 1-6 and S1-S8 Fig; numbering in the text follows it |
-| 6 | Captions for Figures 6, 7, 8 | Next phase: manuscript | Captions for the revised figures |
+| 5 | Cite Figures 6, 7, 8 in the text | Drafted (author files) | The revised set is Fig 1-6 and S1-S8 Fig; numbering in the text follows it |
+| 6 | Captions for Figures 6, 7, 8 | Drafted (author files) | Captions for the revised figures |
 | 7 | Unreadable "Supplemental Fig 1.zip" | Next phase: submission | Upload individual files from `revision/figures/` |
 | 8 | Evaluate reviewer-recommended citations | Done (verification); citing is next phase | All 8 verified (`revision/literature/citation_audit.csv`, R1-R8) |
 
@@ -71,10 +72,10 @@ are relative to the repository root.
 | 2.3 Spearman, same samples, every gene | Done | `screen_gene_level.csv` (n 252 for every gene); T1, T2, T7 |
 | 2.4 BH over all p-values | Done | `a11_screen.py`; `q_adj` |
 | 2.5 Ranked table with required columns | Done | S3 Table |
-| 2.6 Meaning of "rank first" | Next phase: manuscript | Signed and absolute ranks both in S3 Table |
+| 2.6 Meaning of "rank first" | Drafted (author files) | Signed and absolute ranks both in S3 Table |
 | 2.7 TPM/FPKM and outlier values | Done | `screen_sensitivity.csv` |
 | 2.8 Scatterplot from ranking data | Done | Fig 2C |
-| 2.9 Revise or remove unreproduced claims | Next phase: manuscript | `claims_not_reproduced.md` (C01-C03) |
+| 2.9 Revise or remove unreproduced claims | Drafted (author files) | `claims_not_reproduced.md` (C01-C03) |
 
 ### 3. Disease cohort
 
@@ -86,7 +87,7 @@ are relative to the repository root.
 | 3.4 Sensitivity excluding IDH-mutant | Done | IDH-not-mutant and sensitivity cohorts |
 | 3.5 No IDH1 expression as status | Done | Mutation calls only |
 | 3.6 Exclusions per stage | Done | `tcga_cohort_flow.csv`, `external_cohort_flow.csv`, Fig 1 |
-| 3.7 Current terminology | Next phase: manuscript | — |
+| 3.7 Current terminology | Drafted (author files) | — |
 
 ### 4. Survival
 
@@ -96,15 +97,15 @@ are relative to the repository root.
 | KM 3 n, deaths, censored, follow-up, medians with CI, at risk | Done | `km_groups.csv`, `km_logrank.csv`, `km_at_risk.csv` (median follow-up not reached in MGMT-high groups, written `inf`) |
 | KM 4 At-risk table under every KM figure | Done | Fig 3, S3 Fig |
 | KM 5-6 Time combination; missing/implausible values | Done (evidence); Methods next phase | `survival_audit.csv` |
-| KM 7-8 Median split exploratory; Cox primary | Next phase: manuscript | Plan Section 6 |
+| KM 7-8 Median split exploratory; Cox primary | Drafted (author files) | Plan Section 6 |
 | Cox 1 Penalization stated | Done (penalizer 0, T9); Methods next phase | `methods_parameters.json` |
 | Cox 2 Complete output | Done | `cox_models.csv`; Table 3; S4 Table |
 | Cox 3 PH diagnostics | Done | `cox_ph_tests.csv` (R `cox.zph` for every fit; T5 failed comparison with lifelines, R used as prescribed); S5 Fig |
-| Cox 4 No "independent prognostic biomarker" | Next phase: manuscript | — |
+| Cox 4 No "independent prognostic biomarker" | Drafted (author files) | — |
 | Cox 5 Clinical and molecular covariates | Done | Models 4-7; extent of resection unavailable (`resection_field_check.csv`) |
-| Cox 6 State unavailable covariates | Next phase: manuscript | Evidence above |
+| Cox 6 State unavailable covariates | Drafted (author files) | Evidence above |
 | Cox 7 Nested models with/without MGMT expression and methylation | Done | Models 4-7, `cox_lr_tests.csv` |
-| Cox 8 Remove "suppressor variable" | Next phase: manuscript | — |
+| Cox 8 Remove "suppressor variable" | Drafted (author files) | — |
 
 ### 5. Differential expression
 
@@ -118,7 +119,7 @@ are relative to the repository root.
 | 5.5-5.7 Adjusted p, effect and uncertainty, full table | Done | `deseq2_*.csv`; S8 Table |
 | 5.8 Volcano from final output | Done | S7 Fig |
 | 5.9 Reconcile gene counts | Done | `de_summary.csv` |
-| 5.10 Remove "most significantly upregulated" | Next phase: manuscript | C22 |
+| 5.10 Remove "most significantly upregulated" | Drafted (author files) | C22 |
 
 ### 6. Random forest
 
@@ -128,7 +129,7 @@ are relative to the repository root.
 | 6.1-6.5 Outcome, predictors, repeated CV, distributions, baselines | Done | `forest_*.csv`; S8 Fig |
 | 6.6 Class balance, confusion matrix | Not applicable | No classification; n and events reported |
 | 6.7 Held-out permutation importance | Done | `forest_permutation_importance.csv` |
-| 6.8-6.10 Descriptive importance; wording; AUC 0.634 | Next phase: manuscript | C12, C13 |
+| 6.8-6.10 Descriptive importance; wording; AUC 0.634 | Drafted (author files) | C12, C13 |
 
 ### 7. Enrichment
 
@@ -139,7 +140,7 @@ are relative to the repository root.
 | 7.6 Complete outputs | Done | `results/enrichment/` |
 | 7.7-7.8 Adjusted p in tables and figures | Done; text next phase | Fig 6, S6 Fig, Table 6 |
 | 7.9 List derivation and direction | Done | `ora_lists.csv` |
-| 7.10-7.11 Circularity; cautious wording | Next phase: manuscript | — |
+| 7.10-7.11 Circularity; cautious wording | Drafted (author files) | — |
 
 ### 8. External validation
 
@@ -147,7 +148,7 @@ are relative to the repository root.
 |---|---|---|
 | 8.1-8.5 | Done | `external_cohort_samples.csv`, `external_probe_combinations.csv`, `external_coexpression.csv`, `gse13041_*.csv` |
 | 8.6 IDH and classification | Done where data exist | CGGA, CPTAC; others lack IDH (limitation, next phase) |
-| 8.7-8.8 Negative results; "mixed" wording | Next phase: manuscript | `external_meta.csv` |
+| 8.7-8.8 Negative results; "mixed" wording | Drafted (author files) | `external_meta.csv` |
 
 ### 9. Figures
 
@@ -164,30 +165,30 @@ are relative to the repository root.
 |---|---|---|
 | PubMed search through revision date | Done | `revision/literature/` (2026-11-01) |
 | Fève 2014 and other named references | Done (verified) | `citation_audit.csv` R1-R8 |
-| Line-by-line citation audit | Partly done | Bibliographic audit of all 16 references done (6 with errors); sentence-level support check needs the rewritten text (next phase) |
-| Avoid novelty claims; give search date | Next phase: manuscript | Search found no GPR153 + glioblastoma/glioma/MGMT record in PubMed |
+| Line-by-line citation audit | Done | All references checked against Crossref and PubMed; statements about GPR153 checked against abstract or full text; Lee 2010 could not be accessed, so the Gli1-target statement was removed (`revision/literature/literature_search_summary.md`, Section 6) |
+| Avoid novelty claims; give search date | Drafted (author files) | Search found no GPR153 + glioblastoma/glioma/MGMT record in PubMed |
 | Search for GPR153 modulators | Done | No agonist, antagonist or ligand found (searches 11-12) |
 
 ### 11-13. Introduction, Discussion, title/Abstract/Conclusion
 
 | Item | Status | Evidence |
 |---|---|---|
-| 11.1-11.7 Introduction content | Next phase: manuscript | Literature evidence file |
-| 12.1-12.10 Discussion and limitations | Next phase: manuscript | `numbers_for_manuscript.md` |
-| 13 Title, Abstract, Conclusion | Next phase: manuscript | Outcome branch d (`results/decision/decision.csv`) |
+| 11.1-11.7 Introduction content | Drafted (author files) | Literature evidence file |
+| 12.1-12.10 Discussion and limitations | Drafted (author files) | `numbers_for_manuscript.md` |
+| 13 Title, Abstract, Conclusion | Drafted (author files) | Outcome branch d (`results/decision/decision.csv`) |
 
 ### 14. Reporting and transparency
 
 | Item | Status | Evidence |
 |---|---|---|
-| 14.1 Dates, titles, numbers, versions | Next phase: manuscript | `numbers_for_manuscript.md`, `provenance.md` |
-| 14.2 Identical title everywhere | Next phase: manuscript and submission | — |
-| 14.3-14.4 Abbreviations, grammar | Next phase: manuscript | — |
+| 14.1 Dates, titles, numbers, versions | Drafted (author files) | `numbers_for_manuscript.md`, `provenance.md` |
+| 14.2 Identical title everywhere | Drafted (author files); submission form pending | — |
+| 14.3-14.4 Abbreviations, grammar | Drafted (author files) | — |
 | 14.5-14.6 Exact p, CIs | Done (values); text next phase | `numbers_for_manuscript.md` |
-| 14.7 Data Availability with code version | Next phase: manuscript (draft done) | `data_availability_draft.md` (analysis version, archive commit, reserved DOI, licences) |
-| 14.8 Acknowledged contributor | Next phase: manuscript | — |
-| 14.9 AI and automated-tool declaration | Next phase: manuscript | — |
-| Biostatistical consultation | Not pursued | Author decision; does not block completion |
+| 14.7 Data Availability with code version | Drafted (author files) | `data_availability_draft.md` (analysis version, archive commit, reserved DOI, licences) |
+| 14.8 Acknowledged contributor | Done | Acknowledgment removed at the author's instruction |
+| 14.9 AI and automated-tool declaration | **Not supplied** | Not provided by the author |
+| Biostatistical consultation | Not pursued | Author decision; stated in the response letter |
 
 ## D. PLOS administrative note
 

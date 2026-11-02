@@ -2,8 +2,9 @@
 
 Evidence collected for the rewrite; not manuscript text. Searches were run on 2026-11-01 (UTC). Scripts:
 `pipeline/x05_pubmed_search.py` (PubMed), `pipeline/x06_citation_audit.py` (citation audit). Raw records:
-`pubmed_searches.csv` (query, run time, count, PMIDs, PubMed query translation), `pubmed_records.csv` (title,
-journal, year, DOI, abstract, term flags), `pubmed_raw/`, `europepmc_fulltext_searches.csv`, `citation_audit.csv`.
+`pubmed_searches.csv` (query, run time, count, PMIDs, PubMed query translation), `pubmed_records.csv` (PMID, PubMed
+link, title, journal, year, DOI and DOI link, term flags), `pubmed_raw/` (esearch responses: PMIDs and query
+translations), `europepmc_fulltext_searches.csv`, `citation_audit.csv`.
 
 ## 1. PubMed searches (NCBI E-utilities esearch, all fields, no date limit; run 2026-11-01 18:04:31-18:04:38 UTC)
 
@@ -84,3 +85,20 @@ All 8 exist with the DOI given in the letter; first author, year, volume and fir
 | 15 (Wickström) | Journal, DOI and title wrong | Cited as Front Oncol 2015;5:108, doi:10.3389/fonc.2015.00108, which resolves to a different article (Sun et al., histone acetyltransferases). The paper is Wickström M et al., "Wnt/β-catenin pathway regulates MGMT gene expression in cancer and inhibition of Wnt signalling prevents chemoresistance", Nat Commun 2015;6:8904, doi:10.1038/ncomms9904, PMID 26603103 |
 
 Only the first author was checked automatically; the full author list was checked by hand for ref 11 only.
+
+## 6. Changes to the distributed records (2026-11-02)
+
+- The `abstract` column was removed from `pubmed_records.csv` because PubMed abstracts may be protected by the
+  publishers' copyright. The file keeps identifiers, bibliographic metadata, PubMed and DOI links, and the term
+  flags. The term flags were computed from titles and abstracts when the search was run; rerunning
+  `pipeline/x05_pubmed_search.py` retrieves the records again, including abstracts, from PubMed. Earlier repository
+  commits still contain the column; history was not rewritten.
+- Class A orphan status of GPR153 was checked on 2026-11-02 in the full text of the Concise Guide to PHARMACOLOGY
+  2023/24: G protein-coupled receptors (Europe PMC PMC13324819): GPR153 is listed among the class A orphans with no
+  ligand listed. The IUPHAR/BPS Guide to Pharmacology website requires login and was not consulted.
+- Lee et al. 2010 (PNAS 107:9736, PMID 20460306), suggested in the decision letter as the primary source for Gpr153
+  as a Gli1 target: the abstract does not name Gpr153, and the full text and supplementary material could not be
+  retrieved (PMC lists the article as not open access; publisher and repository requests returned access
+  challenges, which were not bypassed). The claim could not be verified and is not made in the revised manuscript.
+- Atwood et al. 2013 (Nature 494:484), cited in the submission for GPR153 as a GLI1 target: its main text (PMC3761364)
+  does not mention GPR153; it is not cited in the revision.
