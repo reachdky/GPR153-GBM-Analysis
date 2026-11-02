@@ -20,14 +20,14 @@ are relative to the repository root.
 | 1 | Clean revised manuscript | Next phase: manuscript | Sources: `revision/numbers_for_manuscript.md`, `revision/claims_not_reproduced.md`, `revision/literature/literature_search_summary.md` |
 | 2 | Tracked-changes version | Next phase: manuscript | — |
 | 3 | Point-by-point response | Next phase: manuscript | Sources: this checklist, `revision/verification/revision_letter_audit.md`, `revision/tables/S9_Table.csv`, `revision/DEVIATIONS.md` |
-| 4 | Frozen code archive / permanent release | Done, account action pending | Commit in `REVISED_COMMIT.txt`, public on GitHub; tag `v1-submitted` = `e0d6bb5`; source archive and Zenodo-ready files in `revision/archive_release/`. Pending: Zenodo deposit (DOI) |
+| 4 | Frozen code archive / permanent release | Done, account action pending | Analysis version `55e41b3` (final run 7), public on GitHub; later commits licence and documentation only; tag `v1-submitted` = `e0d6bb5`; archive files in `revision/archive_release/` (archive commit in `REVISED_COMMIT.txt`). Zenodo DOI 10.5281/zenodo.23872434 reserved; record not yet published (authors' account) |
 | 5 | Exact software environment | Done | `revision/environment/` (pip freezes resolve exactly on PyPI, checked 2026-11-01; R versions); `README.md` install commands with exact versions |
 | 6 | TCGA and external-cohort manifests | Done | `revision/manifests/tcga_samples.csv` (S1 Table), `external_cohort_samples.csv` (S2 Table) |
 | 7 | Eligible-gene correlation table | Done | `revision/results/screen/screen_gene_level.csv`; S3 Table |
 | 8 | Cox, KM, DE, ML, enrichment, validation outputs | Done | `revision/results/{survival,de,forest,enrichment,external}/` |
 | 9 | Source data for every figure and table | Done | `revision/source_data/Fig1.csv`-`Fig6.csv`, `S1_Fig.csv`-`S8_Fig.csv`; tables in `revision/tables/` |
 | 10 | Figure-to-script map | Done | `revision/figure_script_map.csv`; every entry regenerated from results and compared by SHA-256 (`revision/verification/final_outputs_regenerated_sha256.csv`) |
-| 11 | Corrected Data Availability statement | Next phase: manuscript (draft done) | `revision/data_availability_draft.md`; DOI placeholder until the Zenodo deposit |
+| 11 | Corrected Data Availability statement | Next phase: manuscript (draft done) | `revision/data_availability_draft.md`; reserved Zenodo DOI stated as not yet published |
 | 12 | Updated PubMed search summary with final date | Done (evidence); statement is next phase | `revision/literature/literature_search_summary.md` (searches run 2026-11-01; queries, counts, PMIDs) |
 | 13 | AI-use declaration | Next phase: manuscript | Authors' own declaration of tools, tasks and verification |
 | 14 | Statement of analyses or claims not reproduced and removed | Next phase: manuscript (evidence done) | `revision/claims_not_reproduced.md`; which claims are removed is an author decision |
@@ -51,7 +51,7 @@ are relative to the repository root.
 
 | Item | Status | Evidence |
 |---|---|---|
-| 1.1 Exact commit or archival release (Zenodo/OSF preferred) | Done, account action pending | `REVISED_COMMIT.txt`; `revision/archive_release/` |
+| 1.1 Exact commit or archival release (Zenodo/OSF preferred) | Done, account action pending | Analysis version `55e41b3`; `revision/archive_release/`; Zenodo DOI 10.5281/zenodo.23872434 reserved, not yet published |
 | 1.2 Environment file with exact versions | Done | `revision/environment/`; dry-run resolution check in `README.md` |
 | 1.3 Master script from downloaded data | Done | `run_all.sh --download` / `--analysis`; r10 fresh retrieval byte-identical (`revision/manifests/raw_inputs_manifest.csv`) |
 | 1.4 TCGA manifest content | Done | `revision/manifests/tcga_samples.csv` |
@@ -184,7 +184,7 @@ are relative to the repository root.
 | 14.2 Identical title everywhere | Next phase: manuscript and submission | — |
 | 14.3-14.4 Abbreviations, grammar | Next phase: manuscript | — |
 | 14.5-14.6 Exact p, CIs | Done (values); text next phase | `numbers_for_manuscript.md` |
-| 14.7 Data Availability with code version | Next phase: manuscript (draft done) | `data_availability_draft.md` |
+| 14.7 Data Availability with code version | Next phase: manuscript (draft done) | `data_availability_draft.md` (analysis version, archive commit, reserved DOI, licences) |
 | 14.8 Acknowledged contributor | Next phase: manuscript | — |
 | 14.9 AI and automated-tool declaration | Next phase: manuscript | — |
 | Biostatistical consultation | Not pursued | Author decision; does not block completion |

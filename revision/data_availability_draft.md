@@ -44,17 +44,22 @@ was computed: https://osf.io/qpd2f/ (registered 27 October 2026, 23:44:45 UTC).
 retrieval dates and checksums, GDC query parameters, the complete result tables, the source data for every
 figure and table, and a figure-to-script map are publicly available at
 https://github.com/reachdky/GPR153-GBM-Analysis.
-The revised analysis is commit `{REVISED_COMMIT}`, archived at **[Zenodo DOI: to be assigned]**. The code posted
-with the original submission is tagged `v1-submitted` (commit `e0d6bb5`, 6 July 2026); it is retained in
-`legacy/` for reference and was not used for the revised analysis.
+The revised analysis is commit `55e41b3c030b95c965a6085c28e11e830006ada9` (the code of the final analysis run);
+the archived release is commit `{ARCHIVE_COMMIT}`, which adds licence files and documentation and changes no code
+or result. The release is archived at Zenodo, https://doi.org/10.5281/zenodo.23872434 **[DOI reserved, record not
+yet published: confirm before submission that the record is published and the DOI resolves]**. Software is
+released under the MIT License, and figures, result tables and documentation under CC BY 4.0; third-party
+materials keep their original terms. The code posted with the original submission is tagged `v1-submitted`
+(commit `e0d6bb5`, 6 July 2026); it is retained in `legacy/` for reference and was not used for the revised
+analysis.
 
 ## Unresolved
 
 | Item | Status |
 |---|---|
-| Zenodo DOI | **[Placeholder]** No archive has been created. |
-| Public availability of the revised code | Resolved: the revised commits are on GitHub (`main`, public repository, first pushed 2026-11-01; tag `v1-submitted` = `e0d6bb5`). The Zenodo archive is not yet deposited. |
-| Revised commit | Filled in the submission-package copy (and to be updated if later commits are made) of this file from `REVISED_COMMIT.txt`; the repository copy keeps the placeholder `{REVISED_COMMIT}` because a commit cannot contain its own hash. |
+| Zenodo DOI | Reserved, not published: 10.5281/zenodo.23872434 (draft record saved by the authors; licences MIT and CC BY 4.0). The DOI resolves only after the record is published. Not resolved until then. |
+| Public availability of the revised code | Resolved: the revised commits are on GitHub (`main`, public repository, first pushed 2026-11-01; tag `v1-submitted` = `e0d6bb5`). |
+| Analysis version and archive commit | Analysis version: `55e41b3c030b95c965a6085c28e11e830006ada9` (final run 7). Archive commit: filled in the submission-package copy of this file from `REVISED_COMMIT.txt`; the repository copy keeps the placeholder `{ARCHIVE_COMMIT}` because a commit cannot contain its own hash. |
 | Original retrieval of the TCGA STAR files and the GEO SOFT files | The files read by the analysis were first downloaded for the original submission (local file timestamps 24-25 December 2025; GDC file creation dates 2021-12-13 to 2024-10-04). The statement gives the 1 November 2026 verified re-retrieval; authors may add the original date. |
 | Resources retrieved but not used by any analysis in the final run | DepMap 24Q4, GDSC release 8.5, the CELLxGENE GBmap core dataset, GSE131928 cell annotation, and the Bady et al. 2012 article files (`revision/manifests/download_dates.md`). Not named in the draft statement. |
 | Submission form | The form currently says data will be made available on acceptance (journal requirement 3); it must be updated to match. |
@@ -69,4 +74,5 @@ with the original submission is tagged `v1-submitted` (commit `e0d6bb5`, 6 July 
 | Gene annotation version and expression units | `revision/methods_parameters.json` |
 | Sample manifests | `revision/manifests/tcga_samples.csv`, `revision/manifests/external_cohort_samples.csv` |
 | Registration | `revision/PREREGISTRATION_REGISTRATION.md`, `revision/PREREGISTRATION.sha256` |
-| Commits | `git show e0d6bb5`; `revision/submission_package/REVISED_COMMIT.txt` |
+| Commits | `git show e0d6bb5`; `git show 55e41b3`; `REVISED_COMMIT.txt` in each archive |
+| Licences | `LICENSE`, `LICENSE-CC-BY-4.0.txt`, `LICENSING.md` |

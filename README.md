@@ -12,8 +12,17 @@ Code versions:
 - Original submission: tag `v1-submitted` (commit `e0d6bb5`, 2026-07-06). Its scripts are kept unchanged in
   `legacy/` and are not used by the revised analysis; see `legacy/README.md`. The README of that version is
   available at the tag.
-- Revised analysis: the commit that adds `pipeline/` and this README; its full hash is recorded in the
-  submission package (`revision/submission_package/REVISED_COMMIT.txt`).
+- Revised analysis (analysis version): commit `55e41b3c030b95c965a6085c28e11e830006ada9` (2026-11-01), the
+  code of the final run (run 7, `revision/verification/final_run.md`). Later commits change licence files and
+  documentation only; no file under `pipeline/`, `tests/`, `run_all.sh` or any result, figure, table or
+  source-data file changes after it. The commit from which an archive was built is recorded in that archive
+  (`REVISED_COMMIT.txt`).
+
+Archive: Zenodo, DOI 10.5281/zenodo.23872434 (reserved for a draft record; not yet published, so the DOI does
+not resolve until the record is published). Deposit details: `revision/archive_release/README.md`.
+
+Licences: software MIT (`LICENSE`); figures, result tables, source data and non-software documentation CC BY 4.0
+(`LICENSE-CC-BY-4.0.txt`); third-party materials keep their original terms. Scope by path: `LICENSING.md`.
 
 ## Layout
 
@@ -36,6 +45,7 @@ Code versions:
 | `revision/archive_release/` | Archive files for a permanent deposit and the deposit steps |
 | `revision/numbers_for_manuscript.md`, `claims_not_reproduced.md`, `data_availability_draft.md`, `editor_checklist.md` | Manuscript-support documents |
 | `legacy/` | Scripts as posted at initial submission (superseded) |
+| `LICENSE`, `LICENSE-CC-BY-4.0.txt`, `LICENSING.md` | MIT License (software), CC BY 4.0 (figures, results, documentation), scope by path and third-party terms |
 
 ## Scripts
 
