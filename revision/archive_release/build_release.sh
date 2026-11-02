@@ -6,7 +6,7 @@
 #   GPR153-GBM-Analysis-<HEAD>-submission-package.zip
 #   REVISED_COMMIT.txt, SHA256SUMS.txt
 # Stops if the working tree is not clean, or if any analysis file differs from the analysis version
-# (code, tests, results, figures, tables, source data). Earlier archive files are moved to
+# (analysis code, tests, results, figures, tables, source data). Earlier archive files are moved to
 # revision/archive/release_<commit>/, never deleted.
 #
 # Run from the repository root:
@@ -61,7 +61,7 @@ cp "$R"/tables/S9_Table.csv "$R"/results/claims_trace_v1.csv "$R"/results/claims
 {
     printf "Analysis version: %s (%s; code of the final run, run 7)\n" "$ANALYSIS" "$(git log -1 --format=%cI "$ANALYSIS")"
     printf "Archive commit: %s (%s)\n" "$H" "$(git log -1 --format=%cI "$H")"
-    printf "Files changed between them (licence and documentation only):\n"
+    printf "Files changed between them (licence files, documentation, archive build script; no analysis code or output):\n"
     if [ -n "$changed" ]; then echo "$changed" | sed 's/^/  /'; else echo "  none"; fi
     printf "Repository: https://github.com/reachdky/GPR153-GBM-Analysis\n"
     printf "Original submission tag: v1-submitted -> %s\n" "$(git rev-parse 'v1-submitted^{commit}')"
@@ -74,7 +74,7 @@ cat > "$P"/PACKAGE_CONTENTS.md <<EOF
 # Submission package: PONE-D-26-34494 revised analysis
 
 Built from the archive commit \`$H\` with \`git archive\` (\`REVISED_COMMIT.txt\`). The analysis version is commit
-\`$ANALYSIS\` (final run 7); the archive commit adds licence files and documentation only. Every file is a copy of
+\`$ANALYSIS\` (final run 7); the archive commit adds licence files, documentation and the archive build script only. Every file is a copy of
 a file in the archive commit (under \`revision/\`, or the licence files at the repository root), except
 \`data_availability_draft.md\` (archive commit filled in), \`tables/S3_Table.zip\` (zip of \`S3_Table.csv\`, for
 upload under the 10 MB recommendation for supporting files) and the files written at packaging

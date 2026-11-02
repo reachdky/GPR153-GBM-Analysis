@@ -20,7 +20,7 @@ are relative to the repository root.
 | 1 | Clean revised manuscript | Next phase: manuscript | Sources: `revision/numbers_for_manuscript.md`, `revision/claims_not_reproduced.md`, `revision/literature/literature_search_summary.md` |
 | 2 | Tracked-changes version | Next phase: manuscript | — |
 | 3 | Point-by-point response | Next phase: manuscript | Sources: this checklist, `revision/verification/revision_letter_audit.md`, `revision/tables/S9_Table.csv`, `revision/DEVIATIONS.md` |
-| 4 | Frozen code archive / permanent release | Done, account action pending | Analysis version `55e41b3` (final run 7), public on GitHub; later commits licence and documentation only; tag `v1-submitted` = `e0d6bb5`; archive files in `revision/archive_release/` (archive commit in `REVISED_COMMIT.txt`). Zenodo DOI 10.5281/zenodo.23872434 reserved; record not yet published (authors' account) |
+| 4 | Frozen code archive / permanent release | Done, account action pending | Analysis version `55e41b3` (final run 7), public on GitHub; later commits licence, documentation and archive build script only; tag `v1-submitted` = `e0d6bb5`; archive files in `revision/archive_release/` (archive commit in `REVISED_COMMIT.txt`). Zenodo DOI 10.5281/zenodo.23872434 reserved; record not yet published (authors' account) |
 | 5 | Exact software environment | Done | `revision/environment/` (pip freezes resolve exactly on PyPI, checked 2026-11-01; R versions); `README.md` install commands with exact versions |
 | 6 | TCGA and external-cohort manifests | Done | `revision/manifests/tcga_samples.csv` (S1 Table), `external_cohort_samples.csv` (S2 Table) |
 | 7 | Eligible-gene correlation table | Done | `revision/results/screen/screen_gene_level.csv`; S3 Table |

@@ -45,8 +45,8 @@ retrieval dates and checksums, GDC query parameters, the complete result tables,
 figure and table, and a figure-to-script map are publicly available at
 https://github.com/reachdky/GPR153-GBM-Analysis.
 The revised analysis is commit `55e41b3c030b95c965a6085c28e11e830006ada9` (the code of the final analysis run);
-the archived release is commit `{ARCHIVE_COMMIT}`, which adds licence files and documentation and changes no code
-or result. The release is archived at Zenodo, https://doi.org/10.5281/zenodo.23872434 **[DOI reserved, record not
+the archived release is commit `{ARCHIVE_COMMIT}`, which adds licence files, documentation and an archive build
+script and changes no analysis code or result. The release is archived at Zenodo, https://doi.org/10.5281/zenodo.23872434 **[DOI reserved, record not
 yet published: confirm before submission that the record is published and the DOI resolves]**. Software is
 released under the MIT License, and figures, result tables and documentation under CC BY 4.0; third-party
 materials keep their original terms. The code posted with the original submission is tagged `v1-submitted`

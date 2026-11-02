@@ -6,7 +6,7 @@
 |---|---|
 | Final run | Run 7, `./run_all.sh --analysis`, 2026-11-01 21:51:15 to 22:25:03 UTC (33 min 48 s), exit 0 |
 | Log | `revision/logs/run_analysis_2026-11-01_run7.log` (start and end: `revision/logs/run_analysis_start_run7.txt`) |
-| Code | Analysis version `55e41b3c030b95c965a6085c28e11e830006ada9` (2026-11-01); changes since run 5 are in `revision/DEVIATIONS.md` (2026-11-01). Later commits add licence files and documentation only and change no code, test, result, figure, table or source-data file (`REVISED_COMMIT.txt` in each archive lists the files) |
+| Code | Analysis version `55e41b3c030b95c965a6085c28e11e830006ada9` (2026-11-01); changes since run 5 are in `revision/DEVIATIONS.md` (2026-11-01). Later commits add licence files, documentation and an archive build script only and change no analysis code, test, result, figure, table or source-data file (`REVISED_COMMIT.txt` in each archive lists the files) |
 | Inputs | md5-verified 2026-11-01: 63 logged downloads, 2,020 GDC query files, 391 TCGA STAR files, GEO SOFT files and tables (`revision/verification/download_log_md5_check_2026-11-01.csv`, `gdc_query_files_md5_check_2026-11-01.csv`, `revision/manifests/raw_inputs_manifest.csv`) |
 | Previous runs | Run 6 (2026-11-01, `revision/archive/run6_2026-11-01/`, log `revision/logs/run_analysis_2026-11-01.log`); run 5 (2026-10-30, `revision/archive/run5_2026-10-30/`) |
 

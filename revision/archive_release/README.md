@@ -9,7 +9,7 @@ was built from in `REVISED_COMMIT.txt`.
 | Version | Commit | Content |
 |---|---|---|
 | Analysis version | `55e41b3c030b95c965a6085c28e11e830006ada9` (2026-11-01) | Code of the final analysis run (run 7, `revision/verification/final_run.md`) |
-| Archive commit | Recorded in `REVISED_COMMIT.txt` of each archive | The analysis version plus later licence and documentation commits. `REVISED_COMMIT.txt` lists the files changed since the analysis version; no file under `pipeline/` or `tests/`, `run_all.sh`, or any file under `revision/results/`, `revision/figures/`, `revision/tables/` or `revision/source_data/` changes |
+| Archive commit | Recorded in `REVISED_COMMIT.txt` of each archive | The analysis version plus later commits that change licence files, documentation and this build script only. `REVISED_COMMIT.txt` lists the files changed since the analysis version; no file under `pipeline/` or `tests/`, `run_all.sh`, or any file under `revision/results/`, `revision/figures/`, `revision/tables/` or `revision/source_data/` changes |
 | Original submission | tag `v1-submitted` = `e0d6bb527369d8e70b63356d149a579db82567fe` | Scripts posted at initial submission (`legacy/`) |
 
 ## Files

@@ -13,8 +13,8 @@ Code versions:
   `legacy/` and are not used by the revised analysis; see `legacy/README.md`. The README of that version is
   available at the tag.
 - Revised analysis (analysis version): commit `55e41b3c030b95c965a6085c28e11e830006ada9` (2026-11-01), the
-  code of the final run (run 7, `revision/verification/final_run.md`). Later commits change licence files and
-  documentation only; no file under `pipeline/`, `tests/`, `run_all.sh` or any result, figure, table or
+  code of the final run (run 7, `revision/verification/final_run.md`). Later commits change licence files,
+  documentation and the archive build script only; no file under `pipeline/`, `tests/`, `run_all.sh` or any result, figure, table or
   source-data file changes after it. The commit from which an archive was built is recorded in that archive
   (`REVISED_COMMIT.txt`).
 
